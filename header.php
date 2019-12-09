@@ -18,9 +18,6 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
 	<?php wp_head(); ?>
 </head>
 
@@ -70,10 +67,6 @@
 
 				<div class="bg-white d-none" style="height: 50px; width: 100%;"></div>
 			</nav>
-
-			<!-- <div style="margin-top:-150px"> <?php include "paid-services.php"; ?> </div> -->
-
-
 		</header><!-- #masthead -->
 
 		<div id="content" class="site-content">
