@@ -57,7 +57,7 @@
 						'theme_location'  =>  'primary',
 						'menu_id'         =>  'primary-menu',
 						'container_id'    =>  'navbarSupportedContent',
-						'container_class' =>  'navbar-collapse collapse show nav_menu_container'
+						'container_class' =>  'navbar-collapse collapse nav_menu_container'
 					));
 					?>
 
@@ -69,4 +69,4 @@
 			</nav>
 		</header><!-- #masthead -->
 
-		<div id="content" class="site-content">
+		<div id="content" class="site-content" style="background: #f5f5f5 !important">
