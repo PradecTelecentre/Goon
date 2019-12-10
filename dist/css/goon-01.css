@@ -873,3 +873,6 @@ nav.pagination {
 .events-archive .entry-content, .events-archive .entry-header {
     width: 100% !important;
 }
+#tribe-events-content-wrapper{
+    margin-top: 100px !important;
+}
