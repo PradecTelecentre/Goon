@@ -20,7 +20,12 @@ get_header();
         <div class="row">
             <div class="col-md-4" style="padding: 99px">
                 <hr class="hr-news">
-                <h2 class="news-title-h2 p-1">WHAT'S NEW IN THE COMMUNITY ?</h2>
+                    <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                        <h2 class="news-title-h2 p-1">WHAT'S NEW IN THE COMMUNITY ?</h2>
+                    <?php } else { ?>
+                        <h2 class="news-title-h2 p-1">QUELLES SONT LES NOUVELLES ?</h2>
+                    <?php } ?>
+                   
                     <div class="pagination">
                         <h3>Information</h3>
                     </div>
@@ -28,7 +33,7 @@ get_header();
                         //pagination_nav();
                     ?>
                 <div class="card-img-bottom mb-5" style="margin-top: 30px;">
-                    <img src="<?= get_template_directory_uri() . '/src/assets/calendrier.svg' ?>" alt="">
+                    <a href="/events"><img src="<?= get_template_directory_uri() . '/src/assets/calendrier.svg' ?>" alt=""></a>
                 </div>
             </div>
             <div class="col-md-8 content-area" style="padding: 40px">
@@ -52,7 +57,7 @@ get_header();
                                             <?php
                                             the_post();
                                             the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
-                                            <small class="lead"><a href="<?= esc_url( get_permalink() ) ?>" rel="bookmark">Lire l'information</a></small>
+                                            <small class="lead"><a href="<?= esc_url( get_permalink() ) ?>" rel="bookmark">Lire la suite</a></small>
                                             <?php //the_excerpt();
                                             ?>
                                         </div>
