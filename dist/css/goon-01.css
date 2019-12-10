@@ -450,6 +450,7 @@ h6 {
     -o-transition: transform .1s;
     transition: transform .1s;
     transition: transform .1s, -webkit-transform .1s;
+    transform: scale(1.1);
 }
 
 .style-div-md-4>h1 {
