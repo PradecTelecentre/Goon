@@ -21,9 +21,9 @@ get_header();
         <div class="col-md-4" style="padding: 99px">
             <hr class="hr-news">
             <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                <h3 class="news-title-h2 p-1">WHAT'S NEW IN THE COMMUNITY ?</h3>
+                <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY ?</h4>
             <?php } else { ?>
-                <h3 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h3>
+                <h4 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h4>
             <?php } ?>
 
           
