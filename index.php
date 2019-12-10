@@ -21,20 +21,14 @@ get_header();
         <div class="col-md-4" style="padding: 99px">
             <hr class="hr-news">
             <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                <h6 class="news-title-h2 p-1">WHAT'S NEW IN THE COMMUNITY ?</h6>
+                <h3 class="news-title-h2 p-1">WHAT'S NEW IN THE COMMUNITY ?</h3>
             <?php } else { ?>
-                <h6 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h6>
+                <h3 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h3>
             <?php } ?>
 
-            <!-- <div class="pagination">
-                        <h3>Information</h3>
-                    </div> -->
-            <?php
-            //pagination_nav();
-            ?>
-            <!-- <div class="card-img-bottom mb-5" style="margin-top: 30px;">
-                    <img src="<?= get_template_directory_uri() . '/src/assets/calendrier.svg' ?>" alt="">
-                </div> -->
+          
+            
+           
         </div>
         <div class="col-md-8 content-area" style="padding: 40px">
             <main id="main" class="site-main">
@@ -51,7 +45,7 @@ get_header();
                                 endif;
                                 /* Start the Loop */
                                 while (have_posts()) : ?>
-                                <div class="col-md-4 col-lg-4 news">
+                                <div class="col-md-4 col-lg-3 news">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.39 94.67">
                                         <defs>
                                             <style>
@@ -97,10 +91,6 @@ get_header();
         </div>
         </main><!-- #main -->
     </div><!-- #primary -->
-    <div class="col-md-4">
-        <?php //get_sidebar(); 
-        ?>
-    </div>
 </div>
 </div>
 <?php
