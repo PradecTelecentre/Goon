@@ -571,7 +571,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #f5f5f5 !important;
     /* Fallback for when there is no custom background color defined. */
 }
 
