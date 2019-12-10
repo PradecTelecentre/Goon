@@ -5,7 +5,7 @@
 <div class="goon-container-fluid" style="margin-bottom: -30px">
     <div class="goon-row ">
         <div class="col paids-remove"></div>
-        <div class="col paids" style="margin-top:52px; z-index: 99999;">
+        <div class="col paids" style="margin-top:52px;">
             <div class="goon-container-fluid">
                 <div class="goon-row rows-free no-gutters">
                     <div class="free col paid-content-remove-spac" style="background: #f5f5f5 !important">
