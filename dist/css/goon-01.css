@@ -264,7 +264,7 @@ background-size: 100% 100%; */
         display: block !important;
     }
     #primary-menu {
-        margin-top: 24px !important;
+        margin-top: 50px !important;
     }
     .paids-remove {
         display: none !important;
@@ -769,7 +769,7 @@ nav.pagination {
     .btn-hambourger {
         float: right;
         position: relative;
-        top: -36px;
+        top: -25px;
         left: -15px
     }
     .main-navigation ul {
