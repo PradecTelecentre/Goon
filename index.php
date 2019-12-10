@@ -36,18 +36,19 @@ get_header();
                     <a href="/events"><img src="<?= get_template_directory_uri() . '/src/assets/calendrier.svg' ?>" alt=""></a>
                 </div>
             </div>
-            <div class="col-md-8 content-area" style="padding: 40px">
-                <main id="main" class="site-main">
-                    <div class="container-fluid">
-                        <div class="row">
+        </div>
+        <div class="col-md-8 content-area" style="padding: 40px">
+            <main id="main" class="site-main">
+                <div class="container-fluid">
+                    <div class="row">
+                        <?php
+                        if (have_posts()) :
+                            if (is_home() && !is_front_page()) :
+                                ?>
+                                <header>
+                                    <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+                                </header>
                             <?php
-                            if (have_posts()) :
-                                if (is_home() && !is_front_page()) :
-                                    ?>
-                                    <header>
-                                        <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-                                    </header>
-                                <?php
                                 endif;
                                 /* Start the Loop */
                                 while (have_posts()) : ?>
@@ -62,26 +63,28 @@ get_header();
                                             ?>
                                         </div>
                                     </div>
-                                <?php
-                                endwhile;
+                                </div>
+                        <?php
+                            endwhile;
 
-                                 ///wpbeginner_numeric_posts_nav();
+                        ///wpbeginner_numeric_posts_nav();
 
-                            else :
+                        else :
 
-                                get_template_part('template-parts/content', 'none');
+                            get_template_part('template-parts/content', 'none');
 
-                            endif;
-                            ?>
-                        </div>
+                        endif;
+                        ?>
                     </div>
-                </main><!-- #main -->
-            </div><!-- #primary -->
-            <div class="col-md-4">
-                <?php //get_sidebar(); ?>
-            </div>
+                </div>
+            </main><!-- #main -->
+        </div><!-- #primary -->
+        <div class="col-md-4">
+            <?php //get_sidebar(); 
+            ?>
         </div>
     </div>
+</div>
 <?php
 
 get_footer();
