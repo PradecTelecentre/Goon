@@ -249,7 +249,7 @@ background-size: 100% 100%; */
 @media screen and (max-width: 1106px) {
     .site-header-goon {
         height: 80px;
-        background: #ededed !important;
+        background: #FFFFFF !important;
     }
     .site-branding>a {
         position: absolute !important;
