@@ -69,4 +69,4 @@
 			</nav>
 		</header><!-- #masthead -->
 
-		<div id="content" class="site-content">
+		<div id="content" class="site-content" style="background: #f5f5f5 !important">

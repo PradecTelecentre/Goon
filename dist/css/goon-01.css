@@ -35,7 +35,7 @@
     }
     
     .site-header-goon {
-        background: url("../../src/img/Fichier-1.svg");
+        background: url("../../src/img/Fichier.svg");
         background-position-x: 0%;
         background-position-y: 0%;
         background-repeat: repeat;
@@ -407,11 +407,13 @@ Animation with overlay on the DIV */
     text-align: left;
     font-size: 1.3rem;
 }*/
-    
+    html{
+        background: #f5f5f5 !important;
+    }
     .site-branding>a {
         position: absolute;
         top: 90px;
-        left: 189px;
+        left: 145px;
     }
     
     .style-div-md-4:hover .descript {
