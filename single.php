@@ -20,7 +20,7 @@ get_header();
                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                         <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
                     <?php } else { ?>
-                        <h6 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h6>
+                        <h5 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h5>
                     <?php } ?>
                 </div>
 
@@ -34,10 +34,10 @@ get_header();
 
                             the_post_navigation();
 
-                            // If comments are open or we have at least one comment, load up the comment template.
-                            if (comments_open() || get_comments_number()) :
-                                comments_template();
-                            endif;
+                            // // If comments are open or we have at least one comment, load up the comment template.
+                            // if (comments_open() || get_comments_number()) :
+                            //     comments_template();
+                            // endif;
                             ?>
                     </div>
                 <?php endwhile; // End of the loop.
