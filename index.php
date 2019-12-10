@@ -23,7 +23,7 @@ get_header();
             <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                 <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
             <?php } else { ?>
-                <h5 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h5>
+                <h6 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h6>
             <?php } ?>
         </div>
         <div class="col-md-8 content-area" style="padding: 40px">
