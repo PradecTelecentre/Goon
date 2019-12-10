@@ -21,7 +21,6 @@ h6 {
 }
 
 .wpml-ls-slot-2 {
-    background-color: #eee!important;
     color: #565656;
 }
 
@@ -410,6 +409,10 @@ padding: 30px;
 text-align: left;
 font-size: 1.3rem;
 }*/
+.wpml-ls-menu-item .wpml-ls-flag + span {
+    margin-left: .3em;
+    font-size: 0.9rem !important;
+}
 html{
     background: #f5f5f5 !important;
 }
