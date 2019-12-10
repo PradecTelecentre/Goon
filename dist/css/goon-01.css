@@ -867,3 +867,9 @@ nav.pagination {
     }
 }
 /* style for header */
+
+
+/*plugin event */
+.events-archive .entry-content, .events-archive .entry-header {
+    width: 100% !important;
+}
