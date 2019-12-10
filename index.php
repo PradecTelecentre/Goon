@@ -21,14 +21,10 @@ get_header();
         <div class="col-md-4" style="padding: 99px">
             <hr class="hr-news">
             <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY ?</h4>
+                <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
             <?php } else { ?>
-                <h4 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h4>
+                <h5 class="news-title-h2 p-1">LES NOUVELLES DANS LA COMMUNAUTE</h5>
             <?php } ?>
-
-          
-            
-           
         </div>
         <div class="col-md-8 content-area" style="padding: 40px">
             <main id="main" class="site-main">
@@ -42,7 +38,7 @@ get_header();
                                     <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
                                 </header>
                             <?php
-                                endif;
+                            endif;
                                 /* Start the Loop */
                                 while (have_posts()) : ?>
                                 <div class="col-md-4 col-lg-3 news">
@@ -75,23 +71,20 @@ get_header();
                                                 ?>
                                     </div>
                                 </div>
+                            <?php
+                            endwhile;
+                        ///wpbeginner_numeric_posts_nav();
+                        else :
+
+                            get_template_part('template-parts/content', 'none');
+
+                        endif;
+                        ?>
                     </div>
-            <?php
-                endwhile;
-
-            ///wpbeginner_numeric_posts_nav();
-
-            else :
-
-                get_template_part('template-parts/content', 'none');
-
-            endif;
-            ?>
                 </div>
-        </div>
-        </main><!-- #main -->
-    </div><!-- #primary -->
-</div>
+            </main><!-- #main -->
+        </div><!-- #primary -->
+    </div>
 </div>
 <?php
 
