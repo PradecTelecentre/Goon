@@ -79,13 +79,12 @@ get_header();
                     </div>
                 </main><!-- #main -->
             </div><!-- #primary -->
-        </div>
-        <div class="col-md-4">
-            <?php //get_sidebar(); 
-            ?>
+            <div class="col-md-4">
+                <?php //get_sidebar(); 
+                ?>
+            </div>
         </div>
     </div>
-</div>
 <?php
 
 get_footer();
