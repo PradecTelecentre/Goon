@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://telecentrecameroon.ovh:8080/fr-fr/learn/#/topics" rel="bookmark">
+                        <a href="http://telecentrecameroon.ovh:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-goon p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/education11.png' ?>" alt="">
 
