@@ -1,4 +1,3 @@
-[![Build Status](https://telecentrecameroon.ovh)]
 
 GOON
 ---------------
@@ -25,7 +24,7 @@ Getting Started
 As a wordpress template, you will first of all need to install wordpress in your machine or server and then clone the repository as a theme
 
 1. Install and configure wordpress 
-* [General info](#https://wordpress.org/latest.zip)
+* [latest version of wordpress](#https://wordpress.org/latest.zip)
 2. navigation into your wordpress installation
 ```
 $ cd /wordpress/wp-content/theme/
