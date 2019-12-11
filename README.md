@@ -26,9 +26,13 @@ As a wordpress template, you will first of all need to install wordpress in your
 
 1. Install and configure wordpress `(https://wordpress.org/latest.zip)`
 2. navigation into your wordpress installation
+```
 $ cd /wordpress/wp-content/theme/
+```
 3. clone the repository
+```
 $ git clone https://github.com/PradecTelecentre/Goon.git
+```
 4. launch your website and select goon as default theme.
 
 
