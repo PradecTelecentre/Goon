@@ -82,9 +82,9 @@
                             <div class="p-2 bg-goon style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/assets/free-services/commerce.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">MY MARKET</h1>
+                                    <h1 class="bottom-left p-2 mt-2">MARKET</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">MON MARCHÉ</h1>
+                                    <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
                                 <?php } ?>
                                 <!-- <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
@@ -99,9 +99,9 @@
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Calendrier.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITIES</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉS</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
                                 <?php } ?>
                                 <!-- <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
@@ -116,7 +116,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Espaces citoyens</h1>
+                                    <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
                                 <?php } ?>
                                 <!-- <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
