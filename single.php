@@ -26,7 +26,7 @@ get_header();
 
                 <?php
                 while (have_posts()) : ?>
-                    <div class="col-md-8">
+                    <div class="col-md-8" style="margin-top: 55px;">
 
                         <?php the_post();
 
