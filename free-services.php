@@ -9,7 +9,7 @@
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-11 mobile-cover offset-1"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="education" rel="bookmark">
+                        <a href="http://10.10.10.6/goon/?page_id=14" rel="bookmark">
                             <div class="p-2 bg-goon style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/educ.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
