@@ -28,7 +28,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #f5f5f5 !important">
+                        <a href="http://10.10.10.6/owncloud/index.php/login" rel="bookmark" style="background: #f5f5f5 !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #f5f5f5 !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/stockage.png' ?>" alt="" style="background: #f5f5f5 !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
@@ -47,7 +47,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #f5f5f5 !important">
+                        <a href="http://10.10.10.6/owncloud/index.php/apps/files/?dir=/&fileid=3" rel="bookmark" style="background: #f5f5f5 !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #f5f5f5 !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/applications.png' ?>" alt="" style="background: #f5f5f5 !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">

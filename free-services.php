@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6/goon/" rel="bookmark">
+                        <a href="http://10.10.10.6/owncloud/index.php/apps/files/?dir=/jeux&fileid=18" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
