@@ -78,7 +78,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://telecentrecameroon.ovh/" rel="bookmark">
+                        <a href="http://telecentrecameroon.ovh:5000/" rel="bookmark">
                             <div class="p-2 bg-goon style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/assets/free-services/commerce.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -110,7 +110,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark">
+                        <a href="espacecitoyen/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Espace-citoyens.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/VSuNWQaEARsy069" rel="bookmark">
+                        <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
