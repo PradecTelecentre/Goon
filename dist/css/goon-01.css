@@ -2,13 +2,11 @@
 
 ul li a {
     font-family: "Roboto Slab", Sans-serif !important;
-    font-weight: bold;
 }
 
 h6 {
     font-family: "Roboto Slab", Sans-serif !important;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 1rem;
 }
 
 #menu-item-wpml-ls-2-fr {
@@ -462,11 +460,6 @@ h6 {
     transform: scale(1.1);
 }
 
-.style-div-md-4>h1 {
-    font-weight: bold;
-}
-
-
 /* INDEX CSS */
 
 .news-title-h2 {
@@ -766,6 +759,7 @@ nav.pagination {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    margin-top: 38px;
 }
 
 
@@ -907,4 +901,18 @@ nav.pagination {
 
 .trible-events-calendar thead th {
     background: #6e4c1f !important;
+}
+
+.search__part{
+    display: flex;
+    flex-direction: column;
+}
+.search__part > form{
+    display: flex;
+}
+.search__part > form > label{
+    flex-grow: 3;
+}
+.search__part > form > input[type=submit]{
+    flex-grow: 1;
 }
