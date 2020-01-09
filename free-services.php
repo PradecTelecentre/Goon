@@ -7,7 +7,7 @@
         <div class="col-md-12 col-lg-12  content-area">
             <div class="container-fluid">
                 <div class="row free-list" style="background-color:#f5f5f5">
-                    <div class="col-11 mobile-cover offset-1"> <?php get_search_form(); ?> </div>
+                    <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
                             <div class="p-2 bg-goon style-div-md-4">
@@ -32,7 +32,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">J'apprend J'advance</h1>
+                                    <h1 class="bottom-left p-2 mt-2">J'apprend J'avance</h1>
                                 <?php } ?>
                                 <!-- <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
@@ -130,9 +130,9 @@
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> JEUX</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
                                 <?php } ?>
                                 <!-- <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
