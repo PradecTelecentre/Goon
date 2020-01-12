@@ -10,8 +10,8 @@
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
-                            <div class="p-2 bg-goon style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/educ.png' ?>" alt="">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/education.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
                                 <?php } else { ?>
@@ -26,8 +26,8 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
-                            <div class="bg-goon p-2 style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/education11.png' ?>" alt="">
+                            <div class="bg-white p-2 style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/education3.jpg' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
@@ -44,8 +44,8 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/information" rel="bookmark">
-                            <div class="p-2 bg-goon style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/info.png' ?>" alt="">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/news.jpg' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
@@ -61,8 +61,8 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/" rel="bookmark">
-                            <div class="p-2 bg-goon style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/message.png' ?>" alt="">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/tchat.jpg' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
@@ -79,7 +79,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh:5000/" rel="bookmark">
-                            <div class="p-2 bg-goon style-div-md-4">
+                            <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/assets/free-services/commerce.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">MARKET</h1>
@@ -96,7 +96,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="/events" rel="bookmark">
-                            <div class="style-div-md-4 p-2 bg-goon">
+                            <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Calendrier.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
@@ -111,8 +111,8 @@
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="espacecitoyen/" rel="bookmark">
-                            <div class="style-div-md-4 p-2 bg-goon">
-                                <img src="<?= get_template_directory_uri() . '/src/img/Espace-citoyens.png' ?>" alt="">
+                            <div class="style-div-md-4 p-2 bg-white">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/espace-citoyen.jpg' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
                                 <?php } else { ?>
@@ -127,7 +127,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark">
-                            <div class="style-div-md-4 p-2 bg-goon">
+                            <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
@@ -143,7 +143,7 @@
 
                     <!-- <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
                         <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/VSuNWQaEARsy069" rel="bookmark">
-                            <div class="style-div-md-4 p-2 bg-goon">
+                            <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2"> Geocommunal</h1>

@@ -7,11 +7,11 @@
         <div class="col paids-remove"></div>
         <div class="col paids" style="margin-top:52px;">
             <div class="goon-container-fluid">
-                <div class="goon-row rows-free no-gutters">
-                    <div class="free col paid-content-remove-spac" style="background: #f5f5f5 !important">
-                        <a href="#" rel="bookmark" style="background: #f5f5f5 !important">
-                            <div class="p-2 style-div-md-4 bg-white" style="background: #f5f5f5 !important">
-                                <img src="<?= get_template_directory_uri() . '/src/img/internet.png' ?>" alt="" style="background: #f5f5f5 !important">
+                <div class="goon-row rows-free">
+                    <div class="free col paid-content-remove-spac">
+                        <a href="#" rel="bookmark" style="background: #fff !important">
+                            <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
+                                <img src="<?= get_template_directory_uri() . '/src/img/internet.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
@@ -28,9 +28,9 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #f5f5f5 !important">
-                            <div class="p-2 style-div-md-4 bg-white" style="background: #f5f5f5 !important">
-                                <img src="<?= get_template_directory_uri() . '/src/img/stockage.png' ?>" alt="" style="background: #f5f5f5 !important">
+                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #fff !important">
+                            <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/espace.jpg' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
@@ -47,9 +47,9 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #f5f5f5 !important">
-                            <div class="p-2 style-div-md-4 bg-white" style="background: #f5f5f5 !important">
-                                <img src="<?= get_template_directory_uri() . '/src/img/applications.png' ?>" alt="" style="background: #f5f5f5 !important">
+                        <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #fff !important">
+                            <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/application.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
