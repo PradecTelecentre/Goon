@@ -60,7 +60,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://telecentrecameroon.ovh/" rel="bookmark">
+                        <a href="http://humhub.telecentrecameroon.ovh/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/update/tchat.jpg' ?>" alt="">
 
