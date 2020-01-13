@@ -27,7 +27,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/update/education3.jpg' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/education11.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
@@ -128,7 +128,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/update/education3.jpg' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
                                 <?php } else { ?>
