@@ -9,7 +9,7 @@
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6/goon/?page_id=14" rel="bookmark">
+                        <a href="education/" rel="bookmark">
                             <div class="p-2 bg-goon style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/educ.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://goon.mandama.cm:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-goon p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/education11.png' ?>" alt="">
 
@@ -43,7 +43,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6/goon/?page_id=50" rel="bookmark">
+                        <a href="news/" rel="bookmark">
                             <div class="p-2 bg-goon style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/info.png' ?>" alt="">
 
@@ -69,7 +69,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">PARLONS ENSEMBLE</h1>
                                 <?php } ?>
-                                <!-- <div class="">
+                                <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
                                 </div> 
                             </div>
@@ -78,7 +78,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6:5000/" rel="bookmark">
+                        <a href="http://marche.mandama.cm:5000/" rel="bookmark">
                             <div class="p-2 bg-goon style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/assets/free-services/commerce.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -110,7 +110,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6/goon" rel="bookmark">
+                        <a href="espace/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Espace-citoyens.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://10.10.10.6/owncloud/index.php/apps/files/?dir=/jeux&fileid=18" rel="bookmark">
+                        <a href="divertissement/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-goon">
                                 <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
