@@ -11,7 +11,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/update/education.png' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
                                 <?php } else { ?>
@@ -27,7 +27,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/education11.png' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
@@ -45,7 +45,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/information" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/update/news.jpg' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
@@ -62,7 +62,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://humhub.telecentrecameroon.ovh/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/update/tchat.jpg' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/messag.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
@@ -80,7 +80,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh:5000/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/assets/free-services/commerce.png' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">MARKET</h1>
                                 <?php } else { ?>
@@ -97,7 +97,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="/events" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/Calendrier.png' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
                                 <?php } else { ?>
@@ -112,7 +112,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="espacecitoyen/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/update/espace-citoyen.jpg' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
                                 <?php } else { ?>
@@ -128,7 +128,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/update/education3.jpg' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
                                 <?php } else { ?>
