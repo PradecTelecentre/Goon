@@ -30,7 +30,7 @@
                     <div class="free col">
                         <a href="http://owncloud.telecentrecameroon.ovh/" rel="bookmark" style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/application.png' ?>" alt="" style="background: #fff !important">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/es.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
