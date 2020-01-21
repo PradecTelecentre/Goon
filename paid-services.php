@@ -8,6 +8,7 @@
         <div class="col paids" style="margin-top:52px;">
             <div class="goon-container-fluid">
                 <div class="goon-row rows-free">
+                
                     <div class="free col paid-content-remove-spac">
                         <a href="#" rel="bookmark" style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
@@ -68,6 +69,7 @@
                             </div>
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>
