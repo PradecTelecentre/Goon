@@ -9,7 +9,7 @@
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.local/education" rel="bookmark">
+                        <a href="education" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://http://goon.cmgoon.local:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.cm:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
@@ -39,7 +39,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.local/information" rel="bookmark">
+                        <a href="information" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
 
@@ -70,7 +70,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://marche.goon.local" rel="bookmark">
+                        <a href="http://marche.goon.cm" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -85,7 +85,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="/events" rel="bookmark">
+                        <a href="events" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.goon.local" rel="bookmark">
+                        <a href="http://owncloud.goon.cm" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
