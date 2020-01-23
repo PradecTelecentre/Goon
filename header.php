@@ -25,6 +25,11 @@
             $("#myModal").modal('show');
 
         });
+        function myClose(){
+            let sound = document.getElementById("sound");
+            sound.pause();
+            sound.currentTime = 0;
+        }
     </script>
 </head>
 

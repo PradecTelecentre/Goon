@@ -15,71 +15,28 @@
 
 get_header();
 ?>
-<div id="myModal" class="modal fade">
+    <div id="myModal" class="modal fade mr-auto ml-auto p-0">
 
-    <div class="modal-dialog">
+        <div class="modal-dialog">
 
-        <div class="modal-content">
+            <div class="modal-content bg-dark" style="width: 600px !important; height: 600px !important;">
 
-            <div class="modal-header">
-                <button type="button" class="close text-left" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title text-right">Video de présentation de GOON</h4>
-            </div>
+                <div class="modal-header text-center">
+                    <button type="button" class="text-white bg-danger" data-dismiss="modal" aria-hidden="true" onclick="myClose()">&times;</button>
+                    <span class="modal-title text-white" style="font-size: 1.2rem; text-transform: uppercase;">Vidéo de présentation de GOON</span>
+                </div>
 
-            <div class="modal-body">
-                <div class="video__container__size">
-                    <video src="a.webm" width="320" height="300" controls>
+                <div class="modal-body mr-auto ml-auto">
+                    <video controls  autoplay="true" height="100%" width="100%" id="sound">
+                        <source src="<?php echo get_template_directory_uri() ?>/src/video/presentations.mp4" type="video/mp4">
                     </video>
                 </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div><div id="myModal" class="modal fade">
-
-    <div class="modal-dialog">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-
-                <h4 class="modal-title">Subscribe our Newsletter</h4>
-
-            </div>
-
-            <div class="modal-body">
-
-                <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
-
-                <form>
-
-                    <div class="form-group">
-
-                        <input type="text" class="form-control" placeholder="Name">
-
-                    </div>
-
-                    <div class="form-group">
-
-                        <input type="email" class="form-control" placeholder="Email Address">
-
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-
-                </form>
 
             </div>
 
         </div>
 
     </div>
-
-</div>
 <?php
 //  include des services payants
 include "paid-services.php";
