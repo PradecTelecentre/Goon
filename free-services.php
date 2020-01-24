@@ -112,11 +112,27 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://telecentrecameroon.ovh/espacecitoyen/limbe" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                <?php } ?>
+                                <!-- <div class="">
+                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
+                                </div> -->
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                        <a href="http://garoua1.geocameroun.cm/#/" rel="bookmark">
+                            <div class="style-div-md-4 p-2 bg-white">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
+                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                    <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
+                                <?php } else { ?>
+                                    <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
                                 <?php } ?>
                                 <!-- <div class="">
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
