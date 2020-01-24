@@ -19,7 +19,7 @@ get_header();
 
         <div class="modal-dialog">
 
-            <div class="modal-content bg-dark" style="width: 600px !important; height: 600px !important;">
+            <div class="modal-content bg-dark only__desktop">
 
                 <div class="modal-header text-center">
                     <button type="button" class="text-white bg-danger" data-dismiss="modal" aria-hidden="true" onclick="myClose()">&times;</button>
