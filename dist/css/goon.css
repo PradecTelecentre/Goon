@@ -90,19 +90,6 @@ header>nav {
     width: 78.9% !important;
 }
 
-.pending-services-left {
-    background-image: url('../../src/img/serivices-pending/right-services1.png');
-    background-repeat: no-repeat;
-    background-position-y: -1px;
-    background-position-x: -1px;
-}
-
-.pending-services-right {
-    background-image: url('../../src/img/serivices-pending/left-services1.png');
-    background-repeat: no-repeat;
-    background-position-y: -1px;
-    background-position-x: -1px;
-}
 
 
 /* PAID SERVICE */

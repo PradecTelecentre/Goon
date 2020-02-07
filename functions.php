@@ -190,35 +190,6 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
 
-add_action( 'init', 'create_movie_review' );
-function create_movie_review() {
-    register_post_type( 'services',
-        array(
-            'labels' => array(
-                'name' => 'Services',
-                'singular_name' => 'Service Review',
-                'add_new' => 'Add New',
-                'add_new_item' => 'Add New Service Review',
-                'edit' => 'Edit',
-                'edit_item' => 'Edit Service Review',
-                'new_item' => 'New Service Review',
-                'view' => 'View',
-                'view_item' => 'View Service Review',
-                'search_items' => 'Search Service Reviews',
-                'not_found' => 'No Movie Service found',
-                'not_found_in_trash' => 'No Movie Review found in Trash',
-                'parent' => 'Parent Service Review'
-            ),
-
-            'public' => true,
-            'menu_position' => 30,
-            'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields', 'excerpt' ),
-            'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
-            'has_archive' => true
-        )
-    );
-}
 
 function shapeSpace_display_search_form(){
 	return get_search_form(false);

@@ -1,6 +1,0 @@
-/* style="background: url('<?php echo get_template_directory_uri() . '/src/img/SVG/bag.svg' ?>'); 
-background-repeat: no-repeat; background-size: cover; */
-
-.main-header {
-    background-color: red!important;
-}

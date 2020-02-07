@@ -930,3 +930,17 @@ nav.pagination {
 .search__part > form > input[type=submit]{
     flex-grow: 1;
 }
+
+@media only screen and (min-width: 600px) {
+    .only__desktop{
+        width: 600px !important;
+        height: 600px !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .goon-container-fluid{
+        padding: 0 !important;
+    }
+}

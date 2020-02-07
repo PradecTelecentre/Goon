@@ -19,6 +19,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+    <script>
+        $(document).ready(function(){
+
+            $("#myModal").modal('show');
+
+        });
+        function myClose(){
+            let sound = document.getElementById("sound");
+            sound.pause();
+            sound.currentTime = 0;
+        }
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
