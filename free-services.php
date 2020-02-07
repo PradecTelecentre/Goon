@@ -109,7 +109,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                    <!-- <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="espacecitoyen/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/update/espace-citoyen.jpg' ?>" alt="">
@@ -118,12 +118,10 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                                
                             </div>
                         </a>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark">
