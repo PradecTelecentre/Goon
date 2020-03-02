@@ -57,8 +57,7 @@
                                 </div> -->
                             </div>
                         </a>
-                    </div>Ndere2015
-
+                    </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://humhub.telecentrecameroon.ovh/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
@@ -107,7 +106,7 @@
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
                                 </div> -->
                             </div>
-                        </a>
+                        </a> espace 
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- espacecitoyen/ -->
