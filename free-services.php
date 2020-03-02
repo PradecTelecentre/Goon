@@ -106,7 +106,7 @@
                                     <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
                                 </div> -->
                             </div>
-                        </a> espace 
+                        </a> 
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- espacecitoyen/ -->
@@ -118,7 +118,6 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
                                 <?php } ?>
-
                             </div>
                         </a>
                     </div>
