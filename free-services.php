@@ -17,9 +17,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                               
                             </div>
                         </a>
                     </div>
@@ -52,9 +50,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                             
                             </div>
                         </a>
                     </div>
@@ -68,9 +64,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">PARLONS ENSEMBLE</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                              
                             </div>
                         </a>
                     </div>
@@ -85,9 +79,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                              
                             </div>
                         </a>
                     </div>
@@ -102,9 +94,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                                
                             </div>
                         </a> 
                     </div>
@@ -131,9 +121,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                               
                             </div>
                         </a>
                     </div>
@@ -147,9 +135,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                             
                             </div>
                         </a>
                     </div>
