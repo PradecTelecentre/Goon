@@ -32,9 +32,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">J'apprend J'avance</h1>
                                 <?php } ?>
-                                <!-- <div class="">
-                                    <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                </div> -->
+                                
                             </div>
                         </a>
                     </div>
