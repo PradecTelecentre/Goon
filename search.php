@@ -12,7 +12,7 @@ get_header();
 ?>
 
 <div class="container">
-	<div class="row">
+	<div class="row" style="margin-top: 50px;">
 		<div id="primary" class="col-md-12 content-area" style="margin-top:140px">
 			<main id="main" class="site-main">
 				<div class="container-fluid">
