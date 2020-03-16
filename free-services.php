@@ -125,7 +125,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark">
+                        <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -137,7 +137,6 @@
                             </div>
                         </a>
                     </div>
-
                     <!-- <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
                         <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/VSuNWQaEARsy069" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
@@ -156,6 +155,5 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
