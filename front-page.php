@@ -15,7 +15,7 @@
 
 get_header();
 ?>
-    <div id="myModal" class="modal fade mr-auto ml-auto p-0">
+    <div id="video_presentation" class="modal fade mr-auto ml-auto p-0">
 
         <div class="modal-dialog">
 

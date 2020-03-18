@@ -21,9 +21,7 @@
 	<?php wp_head(); ?>
     <script>
         $(document).ready(function(){
-
-            $("#myModal").modal('show');
-
+            $("#video_presentation").modal('show');
         });
         function myClose(){
             let sound = document.getElementById("sound");
