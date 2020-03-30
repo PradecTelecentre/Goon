@@ -34,7 +34,7 @@
                             </div>
                         </a>       
                     <?php } ?>
-                        <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
+                        <!-- <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -44,7 +44,7 @@
                                 <?php } ?>
                                
                             </div>
-                        </a>
+                        </a> -->
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
