@@ -9,6 +9,31 @@
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                    <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                        <a href="http://telecentrecameroon.ovh/education/?lang=en" rel="bookmark">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
+                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                    <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
+                                <?php } else { ?>
+                                    <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
+                                <?php } ?>
+                               
+                            </div>
+                        </a>     
+                        <?php } else { ?>
+                            <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
+                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                    <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
+                                <?php } else { ?>
+                                    <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
+                                <?php } ?>
+                               
+                            </div>
+                        </a>       
+                    <?php } ?>
                         <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
