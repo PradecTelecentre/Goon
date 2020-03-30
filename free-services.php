@@ -34,17 +34,6 @@
                             </div>
                         </a>       
                     <?php } ?>
-                        <!-- <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
-                            <div class="p-2 bg-white style-div-md-4">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
-                                <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
-                                <?php } ?>
-                               
-                            </div>
-                        </a> -->
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
