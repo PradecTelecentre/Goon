@@ -73,8 +73,6 @@
 
 
 				</div><!-- #site-navigation -->
-
-
 				<div class="bg-white d-none" style="height: 50px; width: 100%;"></div>
 			</nav>
 		</header><!-- #masthead -->
