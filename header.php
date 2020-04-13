@@ -64,11 +64,11 @@
 					</button>
 					<?php
 					wp_nav_menu(array(
-						'theme_location'  =>  'primary',
-						'menu_id'         =>  'primary-menu',
-						'container_id'    =>  'navbarSupportedContent',
-						'container_class' =>  'navbar-collapse collapse nav_menu_container'
-					));
+                                               	'theme_location'  =>  'primary',
+                                               	'menu_id'         =>  'primary-menu',
+                                               	'container_id'    =>  'navbarSupportedContent',
+                                               	'container_class' =>  'navbar-collapse collapse nav_menu_container'
+                                        ));
 					?>
 
 
