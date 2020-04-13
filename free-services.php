@@ -45,7 +45,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">J'apprend J'avance</h1>
+                                    <h1 class="bottom-left p-2 mt-2">J'apprends J'avance</h1>
                                 <?php } ?>
                                 
                             </div>

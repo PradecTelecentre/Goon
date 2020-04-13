@@ -34,7 +34,8 @@ h6 {
     border-bottom-color: rgb(221, 223, 226);
     border-left-color: rgb(221, 223, 226);
     border-left-width: 1px;
-    border-radius: 3px;border: 1px solid#dddfe2;
+    border-radius: 3px;
+    border: 1px solid#dddfe2;
     border-top-color: rgb(221, 223, 226);
     border-right-color: rgb(221, 223, 226);
     border-right-width: 1px;
@@ -458,7 +459,7 @@ h6 {
 
 #primary-menu>li>a {
     color: #333 !important;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     background: transparent!important;
 }
 
@@ -473,6 +474,7 @@ h6 {
     transition: transform .1s;
     transition: transform .1s, -webkit-transform .1s;
 }
+
 
 /* INDEX CSS */
 
@@ -917,22 +919,25 @@ nav.pagination {
     background: #6e4c1f !important;
 }
 
-.search__part{
+.search__part {
     display: flex;
     flex-direction: column;
 }
-.search__part > form{
+
+.search__part>form {
     display: flex;
 }
-.search__part > form > label{
+
+.search__part>form>label {
     flex-grow: 3;
 }
-.search__part > form > input[type=submit]{
+
+.search__part>form>input[type=submit] {
     flex-grow: 1;
 }
 
 @media only screen and (min-width: 600px) {
-    .only__desktop{
+    .only__desktop {
         width: 600px !important;
         height: 600px !important;
         margin: auto !important;
@@ -940,9 +945,10 @@ nav.pagination {
 }
 
 @media only screen and (max-width: 400px) {
-    .goon-container-fluid{
+    .goon-container-fluid {
         padding: 0 !important;
     }
+<<<<<<< HEAD
 }
 
 
@@ -951,4 +957,6 @@ nav.pagination {
 
 .contact_css_champ{
     width: 650px;
+=======
+>>>>>>> c3ae22098f53ff35a31cdb9d3d1016d1d8a18aab
 }
