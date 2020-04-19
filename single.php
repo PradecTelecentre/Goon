@@ -12,25 +12,32 @@ get_header();
 ?>
 
 <div id="primary" class="content-area">
-    <main id="main" class="site-main">
-        <div class="container" style="margin-top: 170px">
-            <div class="row">
-                <div class="col-md-4" style="padding: 40px">
+    <!--<main id="main" class="site-main">-->
+        <div class="container-fluid" style="margin-top: 100px; ">
+            <div class="row" style="margin-left: 30px;margin-right:30px;">
+                <div class="col-md-4" style="padding: 30px">
                     <hr class="hr-news">
                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                         <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
                     <?php } else { ?>
                         <h5 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h5>
-                    <?php } ?>
+                    <?php }
+                      while (have_posts()):
+                      the_post();
+                      if (has_post_thumbnail()) {
+                        echo get_the_post_thumbnail();
+                      } else { ?>
+                        <img src="<?php echo get_theme_file_uri("lnews.png");?>" alt="activities">
+                    <?php  };
+                    ?>
                 </div>
-
-                <?php
-                while (have_posts()) : ?>
-                    <div class="col-md-8" style="margin-top: 55px;">
-
-                        <?php the_post();
-
-                            get_template_part('template-parts/content', get_post_type());
+                    <div class="col-md-8" style="margin-top: -30px;">
+                      <div class="generic-content">
+                        <h2 class="headline headline--medium headline--post-title event-summary__title--com"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+                            <div class="metabox metabox--position-up metabox--with-home-link">
+                              <p><a class="metabox__blog-home-link meta--com" href="<?php echo site_url('/information');?>">News Page </a><span class="metabox__main"></span>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?> in <?php echo get_the_category_list('and')?> </p>
+                            </div>
+                          <?php  the_content();
 
                             the_post_navigation();
 
@@ -39,14 +46,16 @@ get_header();
                             //     comments_template();
                             // endif;
                             ?>
+
+                      </div>
                     </div>
                 <?php endwhile; // End of the loop.
                 ?>
             </div>
         </div>
-    </main><!-- #main -->
+    <!-- #main -->
 </div><!-- #primary -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

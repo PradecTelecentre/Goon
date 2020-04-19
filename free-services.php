@@ -19,9 +19,9 @@
                                     <?php } else { ?>
                                         <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
                                     <?php } ?>
-                                
+
                                 </div>
-                            </a>     
+                            </a>
                             <?php } else { ?>
                                 <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
@@ -31,9 +31,9 @@
                                     <?php } else { ?>
                                         <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
                                     <?php } ?>
-                                
+
                                 </div>
-                            </a>       
+                            </a>
                         <?php } ?>
                     </div>
 
@@ -47,14 +47,14 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">J'apprends J'avance</h1>
                                 <?php } ?>
-                                
+
                             </div>
                         </a>
                     </div>
-                    
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                            <a href="http://telecentrecameroon.ovh/information/?lang=en" rel="bookmark">
+                            <a href="http://telecentrecameroon.ovh/news/?lang=en" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -64,9 +64,9 @@
                                     <?php } ?>
                                 
                                 </div>
-                            </a>        
+                            </a>
                         <?php } else { ?>
-                            <a href="http://telecentrecameroon.ovh/information" rel="bookmark">
+                            <a href="http://telecentrecameroon.ovh/news" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -75,10 +75,10 @@
                                         <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
                                     <?php } ?>
                                 </div>
-                            </a>     
+                            </a>
                         <?php } ?>
-                    </div> 
-                    
+                    </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://humhub.telecentrecameroon.ovh/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
@@ -117,7 +117,7 @@
                                     <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
                                 <?php } ?>
                             </div>
-                        </a> 
+                        </a>
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
@@ -142,7 +142,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
                                 <?php } ?>
-                               
+
                             </div>
                         </a>
                     </div>
@@ -156,7 +156,7 @@
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
                                 <?php } ?>
-                             
+
                             </div>
                         </a>
                     </div>
