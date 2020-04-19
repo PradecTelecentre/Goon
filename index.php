@@ -25,15 +25,19 @@ get_header();
           <img src="<?php echo get_theme_file_uri("lnews.png");?>" alt="activities">
       </div>
       <div class="col-md-8" style="padding: -30px">
-        <?php while (have_posts()) {
-          the_post(); ?>
-          <div class="generic-content">
-              <h2 class="headline headline--medium headline--post-title event-summary__title--com"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
-              <div class="metabox">
-                <p>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?> in <?php echo get_the_category_list('and')?></p>
-              </div>
-              <p class="event-summary__content"><?php echo wp_trim_words(get_the_content(), 30); ?><a href="<?php the_permalink();?>" class="nu gray"><br>Read more</a></p>
-          </div>
+        <?php
+          $news_page_posts= new WP_Query(array(
+            'posts_per_page' => 5,
+          ));
+          while ($news_page_posts->have_posts()) {
+            $news_page_posts->the_post(); ?>
+            <div class="generic-content">
+                <h2 class="headline headline--medium headline--post-title event-summary__title--com"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+                <div class="metabox">
+                  <p>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?> in <?php echo get_the_category_list('and')?></p>
+                </div>
+                <p class="event-summary__content"><?php echo wp_trim_words(get_the_content(), 30); ?><a href="<?php the_permalink();?>" class="nu gray"><br>Read more</a></p>
+            </div>
         <?php  }
           echo paginate_links();
         ?>
