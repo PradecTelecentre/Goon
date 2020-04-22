@@ -16,11 +16,10 @@
 get_header();
 ?>
 <div id="primary" class="content-area">
-  <div class="container" style="margin-top: 50px; ">
-    <h5 class="news-title-h2 p-1 banner">RECENT NEWS!</h5>
+  <div class="container" style="margin-top: 10rem;">
     <div class="row">
       <div class="col-sm-5">
-          <h5 class="news-title-h2 p-1 t-center activity">Upcoming Activities</h5>
+          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('activity');?>"> Upcoming Events</a></h5>
           <?php
             $today=date('Ymd');
             $activities = new WP_Query(array(
@@ -49,19 +48,20 @@ get_header();
                   <span class="event-summary__day"><?php echo $activity_date->format('d');?></span>
                 </a>
                   <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
+                  <p class="metabox metabox--activity">Posted by <span style="color:black;"><?php the_author_posts_link();?></span> on <?php the_time('dS F Y');?>.</p>
                   <p class="event-summary__content"><?php if (has_excerpt()) {
                     echo get_the_excerpt();
                   }else {
                     echo wp_trim_words(get_the_content(), 30);
-                  } ?><a href="<?php the_permalink();?>" class="nu gray"><br>Read more</a></p>
+                  } ?><a href="<?php the_permalink();?>" class="ac gray"><br>Read more</a></p>
               </div>
           <?php  }
           ?>
-          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('activity');?>" class="btn btn--blue">View All Events</a></p>
+          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('activity');?>" class="btn btn--brown">View All Community Events!</a></p>
 
         </div>
-    <div class="col-sm-7" style="background-color:#ffffff;">
-          <h5 class="news-title-h2 p-1 t-center com">Community News</h5>
+    <div class="col-sm-7" style="background-color:#f8f8ff; border-radius:20px;">
+          <h5 class="news-title-h2 p-1 t-center com"><a href="<?php echo site_url('/information');?>">Community News</a></h5>
           <?php
             $news_page_posts= new WP_Query(array(
               'posts_per_page' => 5,
@@ -69,9 +69,7 @@ get_header();
             while ($news_page_posts->have_posts()) {
               $news_page_posts->the_post(); ?>
                   <h5 class="event-summary__title--com headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                  <div class="metabox">
-                    <p>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?> in <?php echo get_the_category_list('and')?></p>
-                  </div>
+                  <p class="metabox metabox--com">Posted by <span style="color:black;"><?php the_author_posts_link();?></span> on <?php the_time('dS F Y');?> in <?php echo get_the_category_list('and')?></p>
                   <p class="event-summary__content"><?php if (has_excerpt()) {
                     echo get_the_excerpt();
                   }else {
@@ -80,7 +78,7 @@ get_header();
           <?php  } wp_reset_postdata();
           ?>
 
-          <p class="t-center no-margin"><a href="<?php echo site_url('/information'); ?>" class="btn btn--yellow">View All Blog Posts</a></p>
+          <p class="t-center no-margin"><a href="<?php echo site_url('/information'); ?>" class="btn btn--orange">View All News!</a></p>
         </div>
       </div>
   </div>
