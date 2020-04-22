@@ -60,7 +60,7 @@ get_header();
           <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('activity');?>" class="btn btn--brown">View All Community Events!</a></p>
 
         </div>
-    <div class="col-sm-7" style="background-color:#f8f8ff; border-radius:20px;">
+    <div class="col-sm-7" style="background-color:#ffffff; border-radius:20px;">
           <h5 class="news-title-h2 p-1 t-center com"><a href="<?php echo site_url('/information');?>">Community News</a></h5>
           <?php
             $news_page_posts= new WP_Query(array(

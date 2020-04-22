@@ -1046,7 +1046,7 @@ position: absolute;
 padding: 14px 0 11px 0;
 color: #FFF !important;
 border-radius: 50%;
-background-color: #8b5a2b;
+background-color: #444444;
 width: 80px;
 line-height: 1;
 transition: opacity .33s;
@@ -1187,10 +1187,10 @@ margin: 20px 0;
 .no-margin {margin: 0}
 
 .nu:hover {
-  color:#ff8c00;
+  color:#ff8c00 !important;
   text-decoration: underline;}
 .ac:hover{
-  color:#8b5a2b;
+  color:#8b5a2b !important;
   text-decoration: underline;
 }
 .gray:visited{
@@ -1421,7 +1421,6 @@ img{
   color:#8b5a2b;
   text-decoration-color: #8b5a2b;
   text-decoration-line: underline;
-  text-align: right;
 }
 .activity a {
   color:#8b5a2b !important;
@@ -1430,8 +1429,6 @@ img{
   color:#ff8c00;
   text-decoration-color: #ff8c00;
   text-decoration-line: underline;
-  text-align: right;
-  margin-right: 5rem;
 }
 .com a {
   color:#ff8c00 !important;
