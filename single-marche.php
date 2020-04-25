@@ -38,7 +38,7 @@ get_header();
                                     <?php 
                                     $image = get_field('article_photo');
                                     if(!empty($image)): ?> 
-                                            <div class="article-image" style="background-color:red; height: 200px"> 
+                                            <div class="article-image" style="height: 200px"> 
                                                 <a href="<?php the_permalink() ?>">
                                                     <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="width:100%; height: 100%";alt="">
                                                 </a>
@@ -51,7 +51,7 @@ get_header();
                                     <div class="row d-flex flex-row"> 
                                                 
                                         <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"> Article:  <?php the_title(); ?></div>
-                                        <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"><?php the_field('article_quatity') ?> disponible(s) </div>
+                                        <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"><?php the_field('article_quantity') ?> disponible(s) </div>
                                         <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"> Tel: <?php the_field('article_numero') ?></div>
                                         <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;">Vendeur: <?php the_field('article_proprietaire') ?></div>
                                         <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px; background-color:grey">Prix Unitaire: <?php the_field('article_prix') ?> FCFA</div>
