@@ -11,10 +11,10 @@
 
 get_header();
 ?>
-    <div class="container" style="margin-top: 100px;"> 
+    <div class="container" style="margin-top: 140px;"> 
         <div class="row"> 
             <div class="col-lg-4 col-md-4 banniere" style="height: 650px" > 
-                <img src="<?= get_template_directory_uri() . '/src/img/market2.png' ?>" style="width:100%; height: 100vh";alt="">
+                <img src="<?= get_template_directory_uri() . '/src/img/market1.jpg' ?>" style="width:100%; height: 100vh";alt="">
                 <span class="top-left" style="">Marché</span>
             </div>
 
@@ -49,7 +49,7 @@ get_header();
                                     <?php 
                                     $image = get_field('article_photo');
                                     if(!empty($image)): ?> 
-                                    <div class="article-image" style="background-color:red; height: 200px"> 
+                                    <div class="article-image" style="height: 200px"> 
                                         <a href="<?php the_permalink() ?>">
                                             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="width:100%; height: 100%";alt="">
                                         </a>
