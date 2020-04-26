@@ -602,7 +602,7 @@ dd {
 img {
     height: auto;
     /* Make sure images are scaled correctly. */
-    max-width: 100%;
+    max-width: 55%;
     /* Adhere to container width. */
 }
 
