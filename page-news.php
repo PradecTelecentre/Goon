@@ -19,11 +19,11 @@ get_header();
   <div class="container" style="margin-top: 10rem;">
     <div class="row">
       <div class="col-sm-5">
-          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('activity');?>"> Upcoming Events</a></h5>
+          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('activity');?>"> Community Events</a></h5>
           <?php
             $today=date('Ymd');
             $activities = new WP_Query(array(
-              'posts_per_page' => 5,
+              'posts_per_page' => 20,
               'post_type' => 'activity',
               'meta_key'=>'activity_date',
               'orderby' => 'meta_value_num',
@@ -64,7 +64,7 @@ get_header();
           <h5 class="news-title-h2 p-1 t-center com"><a href="<?php echo site_url('/information');?>">Community News</a></h5>
           <?php
             $news_page_posts= new WP_Query(array(
-              'posts_per_page' => 5,
+              'posts_per_page' => 20,
             ));
             while ($news_page_posts->have_posts()) {
               $news_page_posts->the_post(); ?>
@@ -75,7 +75,8 @@ get_header();
                   }else {
                     echo wp_trim_words(get_the_content(), 30);
                   } ?><a href="<?php the_permalink();?>" class="nu gray"><br>Read more</a></p>
-          <?php  } wp_reset_postdata();
+          <?php  }
+            wp_reset_postdata();
           ?>
 
           <p class="t-center no-margin"><a href="<?php echo site_url('/information'); ?>" class="btn btn--orange">View All News!</a></p>

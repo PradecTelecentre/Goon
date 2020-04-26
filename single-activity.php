@@ -29,7 +29,7 @@ get_header();
                       if (has_post_thumbnail()) { ?>
                         <div class="t-center"><?php echo get_the_post_thumbnail();?></div>
                       <?php } else { ?>
-                        <img src="<?php echo get_theme_file_uri("events.png");?>" alt="activities">
+                        <img src="<?php echo get_theme_file_uri("calen.png");?>" alt="activities">
                     <?php  };
                     ?>
 
@@ -45,7 +45,7 @@ get_header();
                           ?>  <h2 class="headline headline--medium headline--post-title event-summary__title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 
                             <div class="metabox metabox--activity">
-                              <p><a class="metabox__blog-home-link meta--activity" href="<?php echo get_post_type_archive_link('activity');?>"> Activities Page </a><span class="metabox__main"></span>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?>.</p>
+                              <p><a class="metabox__blog-home-link meta--activity" href="<?php echo site_url('/news');?>"> Activities Page </a><span class="metabox__main"></span>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?>.</p>
                             </div>
                             <div class="event-summary">
                               <a class="event-summary__date t-center" href="<?php the_permalink();?>">

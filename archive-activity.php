@@ -22,7 +22,7 @@ get_header();
                     <?php } else { ?>
                         <h5 class="news-title-h2 p-1">ACTIVITÉS DANS LA COMMUNAUTE</h5>
                     <?php } ?>
-                    <img src="<?php echo get_theme_file_uri("events.png");?>" alt="activities">
+                    <img src="<?php echo get_theme_file_uri("calen.png");?>" alt="activities">
                 </div>
 
                     <div class="col-md-8" style="margin-top:-30px;">
