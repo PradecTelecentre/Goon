@@ -1235,7 +1235,7 @@ margin: 20px 0;
   display: inline-block;
   margin: 5px;
   margin-bottom : -3rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #444444;
 }
 
@@ -1245,6 +1245,7 @@ margin: 20px 0;
 
 .metabox__main {
   padding: 10px 15px 10px 11px;
+  font-size: 0.9rem;
 }
 
 .metabox a {
@@ -1288,7 +1289,7 @@ margin: 20px 0;
   color: #8b4513 !important;
 }
 img{
-  border-radius: 15px;
+  border-radius: 8px;
 }
 .generic-content .like-box {
   float: right;
@@ -1437,6 +1438,7 @@ img{
   color:black;
   font-weight: 100;
   margin-top:0.7rem;
+  display: relative;
 }
 /*bootstrap news layout*/
 
