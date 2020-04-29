@@ -125,6 +125,8 @@ get_header();
         </style>
     </div>
 <?php
+
+
 get_footer();
 
 

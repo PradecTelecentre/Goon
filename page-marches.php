@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: marche
+ Template Name: marche 1.0
  */
 get_header();
 ?>
@@ -55,13 +55,6 @@ get_header();
                        
                           
                         <?php
-                        // get_template_part( 'template-parts/content/content', 'page' );
-
-                        // If comments are open or we have at least one comment, load up the comment template.
-                        // if ( comments_open() || get_comments_number() ) {
-                        // 	comments_template();
-                        // }
-
                     endwhile;  // End the loop.
                     $total_pages = $data->max_num_pages;
                    
