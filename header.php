@@ -62,14 +62,14 @@
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 			  <?php
-					if (is_page(2)){
+					if (is_front_page()) {
 				  		$args=array(
 				        'theme_location'  =>  'primary',
 				        'menu_id'         =>  'primary-menu',
 				        'container_id'    =>  'navbarSupportedContent',
 				        'container_class' =>  'navbar-collapse collapse nav_menu_container'
 				  		);
-				} elseif ($post->post_parent=='2') {
+				} elseif ($post->post_parent=='639') {
 						$args=array(
 							'theme_location'  =>  'primary',
 							'menu_id'         =>  'primary-menu',
