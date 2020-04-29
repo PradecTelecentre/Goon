@@ -14,20 +14,22 @@ get_header();
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 articleDiv" style="">
             <div class="row d-flex">
                     <?php
+                    // Querry start here.  print 6 articles per pages
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                         $marche = array(
                             'post_type' => 'marche', 
                             'posts_per_page' => 6,
                             'paged' => $paged,
                         );
-                    // Start Our custom query
+                    // run Our custom query
                     $data = new WP_Query($marche);
                     // Start the Loop.
                 if($data->have_posts() ) :
                     while ($data->have_posts() ) : ?>
                         
                             <div class="col-lg-6 col-md-6  col-sm-6 col-xs-12" style="margin-bottom:50px"> 
-                                <?php   
+                                <?php 
+                                // rander a view  
                                     $data->the_post(); ?>
                                     <div class="row d-flex flex-row"> 
                                             <div class="col">
@@ -56,6 +58,7 @@ get_header();
                           
                         <?php
                     endwhile;  // End the loop.
+                    //pagination
                     $total_pages = $data->max_num_pages;
                    
                     if ($total_pages > 1){
