@@ -36,10 +36,10 @@
 
 	<!-- <footer class="page-footer font-small  special-color-dark pt-4" style="background-color: #f07000">
 
-		
+
 		<div class="container">
 
-		
+
 			<ul class="list-unstyled list-inline text-center">
 
 				<li class="list-inline-item">
@@ -73,19 +73,19 @@
 					</a>
 				</li>
 			</ul>
-			
+
 
 		</div>
-	
 
-		
+
+
 		<div class="footer-copyright text-center py-3">© 2019 Copyright:
 			<a href="https://mdbootstrap.com/education/bootstrap/"> goon.ovh</a>
 		</div>
-		
+
 
 	</footer> -->
-	
+
 
 </footer>
 

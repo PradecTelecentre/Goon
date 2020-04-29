@@ -347,13 +347,14 @@ background-size: 100% 100%; */
 }
 
 .sub-menu {
-    background: #ECA000;
+    background: #ff8c00;
     margin-left: -70px !important;
     text-align: center !important;
     height: auto;
     padding: 20px;
     z-index: 1;
     position: relative;
+    border-radius: 10px;
 }
 
 .header-goon {
