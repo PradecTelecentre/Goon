@@ -101,7 +101,7 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
-                        <img src="<?= get_template_directory_uri() . '/src/img/construction/vaoucher.png' ?>" alt="">
+                        <img src="<?= get_template_directory_uri() . '/src/img/construction/vaoucher.PNG' ?>" alt="">
                     </div>
 
                     <!-- Modal footer -->
