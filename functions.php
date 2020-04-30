@@ -46,6 +46,7 @@ if ( ! function_exists( 'telecenter_setup' ) ) :
 		register_nav_menus( array(
 			'primary' => esc_html__( 'Primary', 'telecenter' ),
 			'home' => esc_html__( 'Home','telecenter'),
+			'secondary' => esc_html__('Secondary','telecenter')
 		) );
 
 		/*
@@ -299,3 +300,12 @@ function wpbeginner_numeric_posts_nav() {
     echo '</ul></div>' . "\n";
 
 }
+
+//function to check if we are on the homepage and its child pages
+function is_child_of_front($pid) {      // $pid = The ID of the page we're looking for pages underneath
+	global $post;         // load details about this page
+	if(($post->post_parent==$pid)||is_page($pid))
+               return true;   // we're at the page or at a sub page
+	else
+               return false;  // we're elsewhere
+};
