@@ -47,6 +47,11 @@ h6 {
 
 .site-branding>a>img {
     position: relative;
+    height: 4rem;
+    width: 12rem;
+    display: block;
+    margin-left: -0.6rem;
+    margin-right: auto;
 }
 
 .site-header-goon {
