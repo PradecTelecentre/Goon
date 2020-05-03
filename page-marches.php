@@ -13,9 +13,6 @@ get_header();
                     Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme
                 </span>
             </div>
-
-            
-           
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 articleDiv" style="">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -66,13 +63,6 @@ get_header();
                             
                                 
                                 <?php
-                                // get_template_part( 'template-parts/content/content', 'page' );
-
-                                // If comments are open or we have at least one comment, load up the comment template.
-                                // if ( comments_open() || get_comments_number() ) {
-                                // 	comments_template();
-                                // }
-
                                 endwhile;  // End the loop.
                                 $total_pages = $data->max_num_pages;
                         
