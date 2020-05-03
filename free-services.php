@@ -94,7 +94,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://telecentrecameroon.ovh:5000/" rel="bookmark">
+                        <a href="marches" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -160,22 +160,6 @@
                             </div>
                         </a>
                     </div>
-
-                        <!-- <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
-                            <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/VSuNWQaEARsy069" rel="bookmark">
-                                <div class="style-div-md-4 p-2 bg-white">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/Game.png' ?>" alt="">
-                                    <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2"> Geocommunal</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2"> Geocommunal</h1>
-                                    <?php } ?>
-                                <div class="">
-                                        <p>Ce n’est pas mon premier site réalisé sur WordPress et je n’avais jamais eu à configurer les permaliens, </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div> -->
                 </div>
             </div>
         </div>
