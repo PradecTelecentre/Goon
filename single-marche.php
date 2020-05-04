@@ -16,6 +16,9 @@ get_header();
             <div class="col-lg-4 col-md-4 banniere" style="height: 650px" > 
                 <img src="<?= get_template_directory_uri() . '/src/img/market1.jpg' ?>" style="width:100%; height: 100vh";alt="">
                 <span class="top-left" style="">Marché</span>
+                <span class="preembule" style="">Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
+                    Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme
+                </span>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 articleDiv" style="">
@@ -102,6 +105,7 @@ get_header();
                 bottom: 0;
                 left: 0px;
                 background-color: red;
+                color:white;
                 padding: 1px;
                 font-family: 'Arial Black', Gadget, sans-serif;
                 font-style: normal;
@@ -109,6 +113,21 @@ get_header();
                 padding-right:8px;
                 border-top-right-radius:10px;
                 
+            }
+            
+            .preembule{
+                position: absolute;
+                top: 120px;
+                left: 15px;
+                color:white;
+                /* background-color: darkorange; */
+                padding: 10px;
+                font-family: 'Arial Black', Gadget, sans-serif;
+                font-style: normal;
+                font-size: 0.7em;
+                text-align: justify;
+                text-justify: inter-word;
+                width:90%; 
             }
 
             .article-image{

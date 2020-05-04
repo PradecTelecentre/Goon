@@ -1137,3 +1137,7 @@ object {
 .gallery-caption {
     display: block;
 }
+
+.wpml-ls-slot-3 a {
+    margin-top: 8px !important;
+}
