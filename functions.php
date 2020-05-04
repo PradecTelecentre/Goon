@@ -316,15 +316,13 @@ function theme_wp_footer() {
     ?>
 
     <script>
-        ;(function($) {
-            $(function() {
-
-                $('.elementor-accordion-title').each(function() {
-                    $(this).removeClass('active').next('.elementor-accordion-content').hide();
-                });
-
-            });
-        })(jQuery);
+			jQuery(document).ready(function($) {
+					var delay = 100;
+					setTimeout(function() {
+						$('.elementor-tab-title').removeClass('elementor-active');
+						$('.elementor-tab-content').css('display', 'none');
+					}, delay);
+			});
     </script>
 
     <?php
