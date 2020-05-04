@@ -309,3 +309,26 @@ function is_child_of_front($pid) {      // $pid = The ID of the page we're looki
 	else
                return false;  // we're elsewhere
 };
+
+//function to ensure that accordion is closed y default.
+function theme_wp_footer() {
+
+    ?>
+
+    <script>
+        ;(function($) {
+            $(function() {
+
+                $('.elementor-accordion-title').each(function() {
+                    $(this).removeClass('active').next('.elementor-accordion-content').hide();
+                });
+
+            });
+        })(jQuery);
+    </script>
+
+    <?php
+
+}
+
+add_action('wp_footer', 'theme_wp_footer', PHP_INT_MAX);
