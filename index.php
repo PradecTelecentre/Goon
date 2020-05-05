@@ -18,11 +18,11 @@ get_header();
       <div class="col-md-4" style="margin-top:4rem;">
         <div style="">
           <hr class="hr-news">
-          <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+          <?php if (strpos(home_url('/'), 'lang=en') !== false) {  ?>
               <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
           <?php } else { ?>
               <h5 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h5>
-          <?php } ?>
+          <?php } echo get_permalink(); ?>
           <img src="<?php echo get_theme_file_uri("onews.png");?>" alt="activities">
       </div>
       </div>

@@ -1,4 +1,4 @@
-<?php
+strpos(get_page_link()<?php
 ?>
 
 
@@ -15,7 +15,7 @@
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
                                     <h6 class="bottom-left" style="margin-top:-38px">INTERNET</h6>
                                 <?php } else { ?>
                                     <h6 class="bottom-left" style="margin-top:-38px">INTERNET</h6>
@@ -35,7 +35,7 @@
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
 
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
                                     <h6 class="bottom-left" style="margin-top:-38px">DOCUMENTS</h6>
                                 <?php } else { ?>
                                     <h6 class="bottom-left" style="margin-top:-38px">DOCUMENTS</h6>
@@ -53,7 +53,7 @@
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
                                     <h6 class="bottom-left" style="margin-top:-38px">APPLICATIONS</h6>
                                 <?php } else { ?>
                                     <h6 class="bottom-left" style="margin-top:-38px">APPLICATIONS</h6>
@@ -111,10 +111,8 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col paids-remove" ></div>
         <!-- la bare de recherche -->
     </div>
 </div>
-
-
