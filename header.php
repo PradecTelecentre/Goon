@@ -55,6 +55,7 @@
 			    <p class="site-description"><?php $telecenter_description; /* WPCS: xss ok. */ ?></p>
 			  <?php
 			  endif;
+				echo get_page_link();
 			  ?>
 			</div><!-- .site-branding -->
 			<div id="site-navigations" class="main-navigation navbar">
@@ -69,7 +70,7 @@
 				        'container_id'    =>  'navbarSupportedContent',
 				        'container_class' =>  'navbar-collapse collapse nav_menu_container'
 				  		);
-				} elseif ($post->post_parent=='639') {
+				} elseif ($post->post_parent=='639') || ($post->post_parent=='787') {
 						$args=array(
 							'theme_location'  =>  'primary',
 							'menu_id'         =>  'primary-menu',
