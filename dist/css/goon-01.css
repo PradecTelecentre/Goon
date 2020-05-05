@@ -1209,30 +1209,34 @@ margin: 20px 0;
 .btn {
   display: inline-block;
   cursor: pointer;
-  border-radius: 20px;
   overflow: hidden;
   text-decoration: underline;
-  color: #444444 !important;
   font-size: 1.19rem;
   font-weight: bold;
   padding: 12px 24px;
   outline: none;
 }
-.btn a{
-  color:#444444;
-}
+
 .btn--brown {
   border: 2px solid #8b4513;
+  border-radius: 20px;
+  color: #444444 !important;
 }
-
+.btn--brown a {
+  color:#444444;
+}
 .btn--brown:hover {
   color: #8b4513 !important;
   text-decoration: underline;
 }
 .btn--orange {
   border: 2px solid #ff8c00;
+  border-radius: 20px;
+  color: #444444 !important;
 }
-
+.btn--orange a {
+  color:#444444;
+}
 .btn--orange:hover {
   color: #ff8c00 !important;
   text-decoration: underline;

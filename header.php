@@ -62,7 +62,6 @@
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 			  <?php
-					echo get_page_link();
 					if (is_front_page()) {
 				  		$args=array(
 				        'theme_location'  =>  'primary',

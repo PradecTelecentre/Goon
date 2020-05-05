@@ -15,7 +15,7 @@
 
 get_header();
 ?>
-  <!--  <div id="video_presentation" class="modal fade mr-auto ml-auto p-0">
+  <div id="video_presentation" class="modal fade mr-auto ml-auto p-0">
 
         <div class="modal-dialog">
 
@@ -28,7 +28,7 @@ get_header();
 
                 <div class="modal-body mr-auto ml-auto">
                     <video controls  autoplay="true" height="100%" width="100%" id="sound">
-                        <source src="<?php// echo get_template_directory_uri() ?>/src/video/presentations.mp4" type="video/mp4">
+                        <source src="<?php echo get_template_directory_uri() ?>/src/video/presentations.mp4" type="video/mp4">
                     </video>
                 </div>
 
@@ -36,7 +36,7 @@ get_header();
 
         </div>
 
-    </div>-->
+    </div>
 <?php
 //  include des services payants
 include "paid-services.php";
