@@ -55,7 +55,6 @@
 			    <p class="site-description"><?php $telecenter_description; /* WPCS: xss ok. */ ?></p>
 			  <?php
 			  endif;
-				echo get_page_link();
 			  ?>
 			</div><!-- .site-branding -->
 			<div id="site-navigations" class="main-navigation navbar">
@@ -63,6 +62,7 @@
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 			  <?php
+					echo get_page_link();
 					if (is_front_page()) {
 				  		$args=array(
 				        'theme_location'  =>  'primary',
@@ -70,7 +70,14 @@
 				        'container_id'    =>  'navbarSupportedContent',
 				        'container_class' =>  'navbar-collapse collapse nav_menu_container'
 				  		);
-				} elseif ($post->post_parent=='639') || ($post->post_parent=='787') {
+				} elseif ($post->post_parent=='639') {
+						$args=array(
+							'theme_location'  =>  'primary',
+							'menu_id'         =>  'primary-menu',
+							'container_id'    =>  'navbarSupportedContent',
+							'container_class' =>  'navbar-collapse collapse nav_menu_container'
+					);
+				} elseif ($post->post_parent=='787') {
 						$args=array(
 							'theme_location'  =>  'primary',
 							'menu_id'         =>  'primary-menu',
