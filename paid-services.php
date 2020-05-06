@@ -15,14 +15,9 @@ strpos(get_page_link()<?php
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
-                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h6 class="bottom-left" style="margin-top:-38px">INTERNET</h6>
-                                <?php } else { ?>
-                                    <h6 class="bottom-left" style="margin-top:-38px">INTERNET</h6>
-                                <?php } ?>
-
+                                    <h6 class="bottom-left" style="margin-top:-38px"><?php _e("INTERNET",'wpml_theme'); ?></h6>
                                 <div class="descript" style="height: 80%; max-width: auto;">
-                                    <p>Internet c'est avoir toute la sagesse du monde au bout des doigts.</p>
+                                    <p><?php _e("Internet c'est avoir toute la sagesse du monde au bout des doigts.",'wpml_theme'); ?></p>
                                 </div>
                             </div>
                         </a>
@@ -34,14 +29,9 @@ strpos(get_page_link()<?php
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
-
-                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h6 class="bottom-left" style="margin-top:-38px">DOCUMENTS</h6>
-                                <?php } else { ?>
-                                    <h6 class="bottom-left" style="margin-top:-38px">DOCUMENTS</h6>
-                                <?php } ?>
+                                    <h6 class="bottom-left" style="margin-top:-38px"><?php _e('DOCUMENTS','wpml_theme');?></h6>
                                 <div class="descript " style="height: 80%;">
-                                    <p>Fini les pertes des vos documents, retrouvez les en un click et a tout moment.</p>
+                                    <p><?php _e('Fini les pertes des vos documents, retrouvez les en un click et a tout moment.','wpml_theme');?></p>
                                 </div>
                             </div>
                         </a>
@@ -53,13 +43,9 @@ strpos(get_page_link()<?php
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
                                     <img src="<?= get_template_directory_uri() . '/src/img/cadre.svg'  ?>" alt="" style="margin-top: -33px; width: 100px">
                                 </div>
-                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h6 class="bottom-left" style="margin-top:-38px">APPLICATIONS</h6>
-                                <?php } else { ?>
-                                    <h6 class="bottom-left" style="margin-top:-38px">APPLICATIONS</h6>
-                                <?php } ?>
+                                    <h6 class="bottom-left" style="margin-top:-38px"><?php _e('APPLICATIONS','wpml_theme');?></h6>
                                 <div class="descript" style="height: 80%;">
-                                    <p>Besoin des applications, faites votre choix par ici. </p>
+                                    <p><?php _e('Besoin des applications, faites votre choix par ici.','wpml_theme');?></p>
                                 </div>
                             </div>
                         </a>

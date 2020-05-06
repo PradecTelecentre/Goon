@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Goon v.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: en_CM\n"
+"X-Generator: Poedit 2.3\n"
+
+#. Text in echo
+#: paid-services.php:46
+msgid "APPLICATIONS"
+msgstr ""
+
+#. Text in echo
+#: paid-services.php:48
+msgid "Besoin des applications, faites votre choix par ici."
+msgstr ""
+
+#. Text in echo
+#: paid-services.php:32
+msgid "DOCUMENTS"
+msgstr ""
+
+#. Text in echo
+#: paid-services.php:34
+msgid "Fini les pertes des vos documents, retrouvez les en un click et a tout moment."
+msgstr ""
+
+#. Text in echo
+#: paid-services.php:18
+msgid "INTERNET"
+msgstr ""
+
+#. Text in echo
+#: paid-services.php:20
+msgid "Internet c'est avoir toute la sagesse du monde au bout des doigts."
+msgstr ""

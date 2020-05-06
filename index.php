@@ -22,7 +22,7 @@ get_header();
               <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
           <?php } else { ?>
               <h5 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h5>
-          <?php } ?>
+          <?php } echo get_option('stylesheet'); ?>
           <img src="<?php echo get_theme_file_uri("onews.png");?>" alt="activities">
       </div>
       </div>

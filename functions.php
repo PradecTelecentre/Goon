@@ -22,7 +22,8 @@ if ( ! function_exists( 'telecenter_setup' ) ) :
 		 * If you're building a theme based on goon, use a find and replace
 		 * to change 'telecenter' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'telecenter', get_template_directory() . '/languages' );
+		 //function for language translations, wpml
+		load_theme_textdomain( 'wpml_theme', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
