@@ -85,7 +85,7 @@
 					);
 				} else {
 					$args=array(
-						'theme_location'  =>  'secondary',
+						'theme_location'  =>  'primary',
 						'menu_id'         =>  'primary-menu',
 						'container_id'    =>  'navbarSupportedContent',
 						'container_class' =>  'navbar-collapse collapse nav_menu_container'
