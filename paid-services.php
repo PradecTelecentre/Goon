@@ -1,6 +1,3 @@
-strpos(get_page_link()<?php
-?>
-
 
 <div class="goon-container-fluid" style="margin-bottom: -30px">
     <div class="goon-row ">
