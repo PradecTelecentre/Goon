@@ -112,9 +112,9 @@
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITIES OF TELECENTER</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉS DU TÉlÉCENTRE</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -126,7 +126,7 @@
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
+                                    <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
                                 <?php } ?>
@@ -153,7 +153,7 @@
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
                                 <?php } ?>
