@@ -13,7 +13,14 @@ h6 {
     margin-top: 8px;
     padding-left: 10px !important;
 }
-
+#menu-item-wpml-ls-10-fr {
+  margin-top: 8px;
+  margin-left: 10px !important;
+}
+#menu-item-wpml-ls-10-en {
+  margin-top: 8px;
+  margin-left: 10px !important;
+}
 #menu-item-wpml-ls-2-en {
     margin-top: 8px;
 }
@@ -462,7 +469,9 @@ h6 {
 #primary-menu {
     margin-top: -80px;
 }
-
+#primary-menu>li{
+  font-weight:400;
+}
 #primary-menu>li>a {
     color: #333 !important;
     font-size: 0.9rem;

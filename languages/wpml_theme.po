@@ -2,42 +2,52 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Project-Id-Version: Goon v.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Language: en_CM\n"
-"X-Generator: Poedit 2.3\n"
+"Language: fr_CM\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. Text in echo
-#: paid-services.php:46
-msgid "APPLICATIONS"
-msgstr ""
+#: news-template.php:18
+msgid "Community Events"
+msgstr "Événements locals"
 
 #. Text in echo
-#: paid-services.php:48
-msgid "Besoin des applications, faites votre choix par ici."
-msgstr ""
+#: news-template.php:60
+msgid "Community News"
+msgstr "Nouvelles locales"
 
 #. Text in echo
-#: paid-services.php:32
-msgid "DOCUMENTS"
-msgstr ""
+#: news-template.php:47
+msgid "Posted by"
+msgstr "Publié par"
 
 #. Text in echo
-#: paid-services.php:34
-msgid "Fini les pertes des vos documents, retrouvez les en un click et a tout moment."
-msgstr ""
+#: news-template.php:68
+msgid "Posted by "
+msgstr "Publié par"
 
 #. Text in echo
-#: paid-services.php:18
-msgid "INTERNET"
-msgstr ""
+#: news-template.php:52 news-template.php:73
+msgid "Read more"
+msgstr "Lire la suite"
 
 #. Text in echo
-#: paid-services.php:20
-msgid "Internet c'est avoir toute la sagesse du monde au bout des doigts."
-msgstr ""
+#: news-template.php:56
+msgid "View All Community Events!"
+msgstr "Voir tous les événements locals!"
+
+#. Text in echo
+#: news-template.php:78
+msgid "View All Community News!"
+msgstr "Voir tous les Nouvelles locales!"
+
+#. Text in echo
+#: news-template.php:47 news-template.php:68
+msgid "on"
+msgstr "le"

@@ -19,7 +19,7 @@ get_header();
 
                 <div class="modal-header text-center">
                     <button type="button" class="text-white bg-danger" data-dismiss="modal" aria-hidden="true" onclick="myClose()">&times;</button>
-                    <span class="modal-title text-white" style="font-size: 1.2rem; text-transform: uppercase;"><?php _e('Vidéo de présentation de GOON','wpml_theme'); ?></span>
+                    <span class="modal-title text-white" style="font-size: 1.2rem; text-transform: uppercase;"><?php _e('Video Presentation of GOON','wpml_theme'); ?></span>
                 </div>
 
                 <div class="modal-body mr-auto ml-auto">
