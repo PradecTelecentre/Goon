@@ -43,7 +43,7 @@
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
+                                    <h1 class="bottom-left p-2 mt-2">I LEARN, I GROW</h1>
                                 <?php } else { ?>
                                     <h1 class="bottom-left p-2 mt-2">J'apprends J'avance</h1>
                                 <?php } ?>
@@ -58,9 +58,9 @@
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
+                                        <h1 class="bottom-left p-2 mt-2">LOCAL NEWS</h1>
                                     <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
+                                        <h1 class="bottom-left p-2 mt-2">LES NOUVELLES LOCALES</h1>
                                     <?php } ?>
 
                                 </div>
@@ -70,9 +70,9 @@
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
+                                        <h1 class="bottom-left p-2 mt-2">LOCAL NEWS</h1>
                                     <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
+                                        <h1 class="bottom-left p-2 mt-2">LES NOUVELLES LOCALES</h1>
                                     <?php } ?>
                                 </div>
                             </a>
@@ -155,7 +155,7 @@
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> DIVERTISEMENTS</h1>
                                 <?php } ?>
 
                             </div>

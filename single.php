@@ -18,9 +18,9 @@ get_header();
                 <div class="col-md-4" style="margin-top:4rem;">
                     <hr class="hr-news">
                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                        <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
+                        <h4 class="news-title-h2 p-1">COMMUNITY NEWS</h4>
                     <?php } else { ?>
-                        <h5 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h5>
+                        <h5 class="news-title-h2 p-1">LES NOUVELLES LOCALES</h5>
                     <?php }
                       while (have_posts()):
                       the_post();
@@ -35,7 +35,11 @@ get_header();
                       <div class="generic-content">
                         <h2 class="headline headline--medium headline--post-title event-summary__title--com"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
                             <div class="metabox metabox--com">
-                              <p><a class="metabox__blog-home-link meta--com" href="<?php echo site_url('/news');?>">News Page </a><span class="metabox__main"></span>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?> in <?php echo get_the_category_list('and')?> </p>
+                              <p><a class="metabox__blog-home-link meta--com" href="<?php echo site_url('/news');?>"><?php _e('News Page','wpml_theme'); ?></a><span class="metabox__main"></span><?php _e('Posted by ','wpml_theme');
+                                the_author_posts_link();
+                                _e(' on ','wpml_theme');
+                                the_time('d/m/Y');
+                                _e(' in ','wpml_theme'); echo get_the_category_list('and')?> </p>
                             </div>
                           <?php  the_content();
 

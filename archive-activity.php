@@ -18,9 +18,9 @@ get_header();
                 <div class="col-md-4" style="margin-top: 4rem;">
                     <hr class="hr-activity">
                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                        <h4 class="news-title-h2 p-1">ACTIVITIES IN THE COMMUNITY</h4>
+                        <h4 class="news-title-h2 p-1">COMMUNITY EVENTS</h4>
                     <?php } else { ?>
-                        <h5 class="news-title-h2 p-1">ACTIVITÉS DANS LA COMMUNAUTE</h5>
+                        <h5 class="news-title-h2 p-1">ÉVÉNEMENTS LOCALS</h5>
                     <?php } ?>
                     <img src="<?php echo get_theme_file_uri("calen.png");?>" alt="activities">
                 </div>
@@ -31,7 +31,7 @@ get_header();
                         <?php the_post();
                           ?>
                           <h2 class="headline headline--medium headline--post-title event-summary__title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
-                          <p class="metabox metabox--activity">Posted by <span style="color:black;"><?php the_author_posts_link();?></span> on <?php the_time('dS F Y');?>.</p>
+                          <p class="metabox metabox--activity"><?php _e('Posted by ','wpml_theme');?> <span style="color:black;"><?php the_author_posts_link();?></span><?php _e(' on ','wpml_theme'); the_time('d/m/Y');?>.</p>
                             <div class="event-summary">
                               <a class="event-summary__date t-center" href="<?php the_permalink();?>">
                                 <span class="event-summary__month"><?php
@@ -40,7 +40,7 @@ get_header();
                                 ?></span>
                                 <span class="event-summary__day"><?php echo $activity_date->format('d');?></span>
                               </a>
-                              <p class="event-summary__content"><?php echo wp_trim_words(get_the_content(), 30); ?><a href="<?php the_permalink();?>" class="ac gray"><br>Read more</a></p>
+                              <p class="event-summary__content"><?php echo wp_trim_words(get_the_content(), 30); ?><a href="<?php the_permalink();?>" class="ac gray"><br><?php _e('Read more','wpml_theme');?></a></p>
                             </div>
                           <?php  //the_content();
 

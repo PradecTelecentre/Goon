@@ -44,7 +44,7 @@ get_header();
                   <span class="event-summary__day"><?php echo $activity_date->format('d');?></span>
                 </a>
                   <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                  <p class="metabox metabox--activity"><?php _e('Posted by','wpml_theme'); ?><span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on','wpml_theme'); the_time('dS F Y');?>.</p>
+                  <p class="metabox metabox--activity"><?php _e('Posted by ','wpml_theme'); ?><span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?>.</p>
                   <p class="event-summary__content"><?php if (has_excerpt()) {
                     echo get_the_excerpt();
                   }else {
@@ -65,7 +65,7 @@ get_header();
             while ($news_page_posts->have_posts()) {
               $news_page_posts->the_post(); ?>
                   <h5 class="event-summary__title--com headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                  <p class="metabox metabox--com"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on','wpml_theme'); the_time('dS F Y');?> in <?php echo get_the_category_list('and')?></p>
+                  <p class="metabox metabox--com"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?> in <?php echo get_the_category_list('and')?></p>
                   <p class="event-summary__content"><?php if (has_excerpt()) {
                     echo get_the_excerpt();
                   }else {

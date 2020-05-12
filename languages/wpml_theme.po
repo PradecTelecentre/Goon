@@ -1,53 +1,51 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Project-Id-Version: Goon v.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Language: fr_CM\n"
-"X-Generator: Poedit 2.3.1\n"
 
 #. Text in echo
-#: news-template.php:18
-msgid "Community Events"
-msgstr "Événements locals"
+#: translate/single-activity.php:48
+msgid " Activities Page "
+msgstr ""
 
 #. Text in echo
-#: news-template.php:60
-msgid "Community News"
-msgstr "Nouvelles locales"
+#: translate/index.php:38
+#: translate/single.php:38
+msgid " in "
+msgstr ""
 
 #. Text in echo
-#: news-template.php:47
-msgid "Posted by"
-msgstr "Publié par"
+#: translate/archive.php:34
+#: translate/archive-activity.php:34
+#: translate/index.php:38
+#: translate/single-activity.php:48
+#: translate/single.php:38
+msgid " on "
+msgstr ""
 
 #. Text in echo
-#: news-template.php:68
+#: translate/archive.php:34
+#: translate/single.php:38
+msgid "News Page"
+msgstr ""
+
+#. Text in echo
+#: translate/archive.php:34
+#: translate/archive-activity.php:34
+#: translate/index.php:38
+#: translate/single-activity.php:48
+#: translate/single.php:38
 msgid "Posted by "
 msgstr "Publié par"
 
 #. Text in echo
-#: news-template.php:52 news-template.php:73
+#: translate/archive.php:39
+#: translate/archive-activity.php:43
+#: translate/index.php:43
 msgid "Read more"
 msgstr "Lire la suite"
 
 #. Text in echo
-#: news-template.php:56
-msgid "View All Community Events!"
-msgstr "Voir tous les événements locals!"
-
-#. Text in echo
-#: news-template.php:78
-msgid "View All Community News!"
-msgstr "Voir tous les Nouvelles locales!"
-
-#. Text in echo
-#: news-template.php:47 news-template.php:68
-msgid "on"
-msgstr "le"
+#: translate/archive.php:37
+msgid "in"
+msgstr ""

@@ -20,9 +20,9 @@ get_header();
                     <?php
 
                       if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                        <h4 class="news-title-h2 p-1">ACTIVITIES IN THE COMMUNITY</h4>
+                        <h4 class="news-title-h2 p-1">COMMUNITY EVENTS</h4>
                     <?php } else { ?>
-                        <h5 class="news-title-h2 p-1">ACTIVITÉS DANS LA COMMUNAUTE</h5>
+                        <h5 class="news-title-h2 p-1">ÉVÉNEMENTS LOCALS</h5>
                     <?php }
                     while (have_posts()):
                       the_post();
@@ -45,7 +45,10 @@ get_header();
                           ?>  <h2 class="headline headline--medium headline--post-title event-summary__title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 
                             <div class="metabox metabox--activity">
-                              <p><a class="metabox__blog-home-link meta--activity" href="<?php echo site_url('/news');?>"> Activities Page </a><span class="metabox__main"></span>Posted by <?php the_author_posts_link();?> on <?php the_time('dS F Y');?>.</p>
+                              <p><a class="metabox__blog-home-link meta--activity" href="<?php echo site_url('/news');?>"><?php _e(' Activities Page ','wpml_theme');?></a><span class="metabox__main"></span><?php _e('Posted by ','wpml_theme');
+                               the_author_posts_link();
+                               _e(' on ','wpml_theme');
+                               the_time('d/m/Y');?>.</p>
                             </div>
                             <div class="event-summary">
                               <a class="event-summary__date t-center" href="<?php the_permalink();?>">
