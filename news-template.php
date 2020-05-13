@@ -15,33 +15,35 @@ get_header();
   <div class="container" style="margin-top: 10rem;">
     <div class="row">
       <div class="col-sm-5">
-          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('cevent');?>"><?php _e('Community Events','wpml_theme'); ?></a></h5>
+          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('activity');?>"><?php _e('Community Events','wpml_theme'); ?></a></h5>
           <?php
             $today=date('Ymd');
-            $events = new WP_Query(array(
+            $community_events = new WP_Query(array(
               'posts_per_page' => 20,
-              'post_type' => 'cevent',
-              'meta_key'=>'event_date',
+              'post_type' => 'activity',
+              'meta_key'=>'community_event_date',
               'orderby' => 'meta_value_num',
               'order'=>'ASC',
               'meta_query' => array(
                 array(
-                  'key'=> 'event_date',
+                  'key'=> 'community_event_date',
                   'compare'=> '>=',
                   'value'=> $today,
                   'type'=>'numeric'
                 )
               )
             ));
-            while ($events->have_posts()) {
-              $events->the_post();?>
+            while ($community_events->have_posts()) {
+              $community_events->the_post();?>
               <div class="event-summary">
                 <a class="event-summary__date t-center" href="<?php the_permalink();?>">
                   <span class="event-summary__month"><?php
-                    $event_date = new DateTime(get_field('event_date'));
-                    echo $event_date->format('M');
+                    //$communityevent_date = new DateTime(get_field('community_event_date'));
+                    //echo $communityevent_date->format('M');
+                    $communityevent_date=strtotime(get_field('community_event_date'));
+                    echo date('M',$communityevent_date);
                   ?></span>
-                  <span class="event-summary__day"><?php echo $event_date->format('d');?></span>
+                  <span class="event-summary__day"><?php /*echo $communityevent_date->format('d');*/echo date('d',$communityevent_date);?></span>
                 </a>
                   <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
                   <p class="metabox metabox--activity"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?> </span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?>.</p>
@@ -53,7 +55,7 @@ get_header();
               </div>
           <?php  }
           ?>
-          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('cevent');?>" class="btn btn--brown"><?php _e('View All Community Events!','wpml_theme'); ?></a></p>
+          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('activity');?>" class="btn btn--brown"><?php _e('View All Community Events!','wpml_theme'); ?></a></p>
 
         </div>
     <div class="col-sm-7" style="background-color:#ffffff; border-radius:20px;">

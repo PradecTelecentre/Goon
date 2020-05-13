@@ -20,7 +20,7 @@ get_header();
                     <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                         <h4 class="news-title-h2 p-1">COMMUNITY EVENTS</h4>
                     <?php } else { ?>
-                        <h5 class="news-title-h2 p-1 t-center">ÉVÉNEMENTS LOCALS</h5>
+                        <h5 class="news-title-h2 p-1">ÉVÉNEMENTS LOCALS</h5>
                     <?php } ?>
                     <img src="<?php echo get_theme_file_uri("calen.png");?>" alt="activities">
                 </div>
@@ -35,7 +35,7 @@ get_header();
                             <div class="event-summary">
                               <a class="event-summary__date t-center" href="<?php the_permalink();?>">
                                 <span class="event-summary__month"><?php
-                                $event_date = new DateTime(get_field('event_date'));
+                                $event_date = new DateTime(get_field('community_event_date'));
                                 echo $event_date->format('M');
                                 ?></span>
                                 <span class="event-summary__day"><?php echo $event_date->format('d');?></span>
