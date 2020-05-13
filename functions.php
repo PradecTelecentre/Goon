@@ -154,7 +154,7 @@ add_action( 'wp_enqueue_scripts', 'telecenter_scripts' );
 
 function events_adjust_queries($query){
 		//Before wordpress sends the query to the database, it gives you the final say to edit it.
-		if (!is_admin() AND is_post_type_archive('com_event') AND $query->is_main_query()) {
+		if (!is_admin() AND is_post_type_archive('cevent') AND $query->is_main_query()) {
 			$today=date('Ymd');
 			$query->set('meta_key','event_date');
 			$query->set('orderby','meta_value_num');
