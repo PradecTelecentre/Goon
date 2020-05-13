@@ -15,36 +15,36 @@ get_header();
   <div class="container" style="margin-top: 10rem;">
     <div class="row">
       <div class="col-sm-5">
-          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('activity');?>"><?php _e('Community Events','wpml_theme'); ?></a></h5>
+          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('event');?>"><?php _e('Community Events','wpml_theme'); ?></a></h5>
           <?php
             $today=date('Ymd');
-            $activities = new WP_Query(array(
+            $events = new WP_Query(array(
               'posts_per_page' => 20,
-              'post_type' => 'activity',
-              'meta_key'=>'activity_date',
+              'post_type' => 'event',
+              'meta_key'=>'event_date',
               'orderby' => 'meta_value_num',
               'order'=>'ASC',
               'meta_query' => array(
                 array(
-                  'key'=> 'activity_date',
+                  'key'=> 'event_date',
                   'compare'=> '>=',
                   'value'=> $today,
                   'type'=>'numeric'
                 )
               )
             ));
-            while ($activities->have_posts()) {
-              $activities->the_post();?>
+            while ($events->have_posts()) {
+              $events->the_post();?>
               <div class="event-summary">
                 <a class="event-summary__date t-center" href="<?php the_permalink();?>">
                   <span class="event-summary__month"><?php
-                    $activity_date = new DateTime(get_field('activity_date'));
-                    echo $activity_date->format('M');
+                    $event_date = new DateTime(get_field('event_date'));
+                    echo $event_date->format('M');
                   ?></span>
-                  <span class="event-summary__day"><?php echo $activity_date->format('d');?></span>
+                  <span class="event-summary__day"><?php echo $event_date->format('d');?></span>
                 </a>
                   <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                  <p class="metabox metabox--activity"><?php _e('Posted by ','wpml_theme'); ?><span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?>.</p>
+                  <p class="metabox metabox--activity"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?> </span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?>.</p>
                   <p class="event-summary__content"><?php if (has_excerpt()) {
                     echo get_the_excerpt();
                   }else {
@@ -53,7 +53,7 @@ get_header();
               </div>
           <?php  }
           ?>
-          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('activity');?>" class="btn btn--brown"><?php _e('View All Community Events!','wpml_theme'); ?></a></p>
+          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event');?>" class="btn btn--brown"><?php _e('View All Community Events!','wpml_theme'); ?></a></p>
 
         </div>
     <div class="col-sm-7" style="background-color:#ffffff; border-radius:20px;">
@@ -65,7 +65,7 @@ get_header();
             while ($news_page_posts->have_posts()) {
               $news_page_posts->the_post(); ?>
                   <h5 class="event-summary__title--com headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                  <p class="metabox metabox--com"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?> in <?php echo get_the_category_list('and')?></p>
+                  <p class="metabox metabox--com"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?></span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?> <?php _e('in','wpml_theme');?> <?php echo get_the_category_list('and')?></p>
                   <p class="event-summary__content"><?php if (has_excerpt()) {
                     echo get_the_excerpt();
                   }else {

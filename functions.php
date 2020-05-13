@@ -150,18 +150,18 @@ function telecenter_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'telecenter_scripts' );
 
-/*functions for news and activities pages*/
+/*functions for news and events pages*/
 
-function activities_adjust_queries($query){
+function events_adjust_queries($query){
 		//Before wordpress sends the query to the database, it gives you the final say to edit it.
-		if (!is_admin() AND is_post_type_archive('activity') AND $query->is_main_query()) {
+		if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
 			$today=date('Ymd');
-			$query->set('meta_key','activity_date');
+			$query->set('meta_key','event_date');
 			$query->set('orderby','meta_value_num');
 			$query->set('order','ASC');
 			$query->set('meta_query', array(
 				array(
-					'key'=> 'activity_date',
+					'key'=> 'event_date',
 					'compare'=> '>=',
 					'value'=> $today,
 					'type'=>'numeric'
@@ -169,7 +169,7 @@ function activities_adjust_queries($query){
 			));
 		}
 }
-add_action('pre_get_posts','activities_adjust_queries');
+add_action('pre_get_posts','events_adjust_queries');
 //end functions for custom posts
 
 /**

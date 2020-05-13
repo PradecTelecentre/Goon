@@ -45,18 +45,18 @@ get_header();
                           ?>  <h2 class="headline headline--medium headline--post-title event-summary__title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 
                             <div class="metabox metabox--activity">
-                              <p><a class="metabox__blog-home-link meta--activity" href="<?php echo site_url('/news');?>"><?php _e(' Activities Page ','wpml_theme');?></a><span class="metabox__main"></span><?php _e('Posted by ','wpml_theme');
-                               the_author_posts_link();
-                               _e(' on ','wpml_theme');
-                               the_time('d/m/Y');?>.</p>
+                              <p><a class="metabox__blog-home-link meta--activity" href="<?php echo site_url('/news');?>"><?php _e('Events Page','wpml_theme');?></a><span class="metabox__main"></span><?php _e('Posted by ','wpml_theme');?>
+                                <?php the_author_posts_link();?>
+                                <?php _e(' on ','wpml_theme');?>
+                                <?php the_time('d/m/Y');?>.</p>
                             </div>
                             <div class="event-summary">
                               <a class="event-summary__date t-center" href="<?php the_permalink();?>">
                                 <span class="event-summary__month"><?php
-                                $activity_date = new DateTime(get_field('activity_date'));
-                                echo $activity_date->format('M');
+                                $event_date = new DateTime(get_field('event_date'));
+                                echo $event_date->format('M');
                                 ?></span>
-                                <span class="event-summary__day"><?php echo $activity_date->format('d'); ?></span>
+                                <span class="event-summary__day"><?php echo $event_date->format('d'); ?></span>
                               </a>
                               <p class="event-summary__content"><?php the_content();?></p>
                             </div>

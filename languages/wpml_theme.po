@@ -4,23 +4,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Text in echo
-#: translate/single-activity.php:48
-msgid " Activities Page "
-msgstr ""
-
-#. Text in echo
 #: translate/index.php:38
-#: translate/single.php:38
+#: translate/single.php:42
 msgid " in "
 msgstr ""
 
 #. Text in echo
-#: translate/archive.php:34
-#: translate/archive-activity.php:34
+#: translate/archive.php:36
+#: translate/archive-event.php:34
 #: translate/index.php:38
-#: translate/single-activity.php:48
-#: translate/single.php:38
+#: translate/single.php:40
+#: translate/single-event.php:50
 msgid " on "
+msgstr ""
+
+#. Text in echo
+#: translate/news-template.php:18
+msgid "Community Events"
+msgstr ""
+
+#. Text in echo
+#: translate/news-template.php:60
+msgid "Community News"
+msgstr ""
+
+#. Text in echo
+#: translate/single-event.php:48
+msgid "Events Page"
 msgstr ""
 
 #. Text in echo
@@ -31,21 +41,42 @@ msgstr ""
 
 #. Text in echo
 #: translate/archive.php:34
-#: translate/archive-activity.php:34
+#: translate/archive-event.php:34
 #: translate/index.php:38
-#: translate/single-activity.php:48
+#: translate/news-template.php:47
+#: translate/news-template.php:68
 #: translate/single.php:38
+#: translate/single-event.php:48
 msgid "Posted by "
 msgstr "Publié par"
 
 #. Text in echo
 #: translate/archive.php:39
-#: translate/archive-activity.php:43
+#: translate/archive-event.php:43
 #: translate/index.php:43
+#: translate/news-template.php:52
+#: translate/news-template.php:73
 msgid "Read more"
 msgstr "Lire la suite"
 
 #. Text in echo
+#: translate/news-template.php:56
+msgid "View All Community Events!"
+msgstr ""
+
+#. Text in echo
+#: translate/news-template.php:78
+msgid "View All Community News!"
+msgstr ""
+
+#. Text in echo
 #: translate/archive.php:37
+#: translate/news-template.php:68
 msgid "in"
+msgstr ""
+
+#. Text in echo
+#: translate/news-template.php:47
+#: translate/news-template.php:68
+msgid "on "
 msgstr ""
