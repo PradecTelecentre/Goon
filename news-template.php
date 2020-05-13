@@ -15,12 +15,12 @@ get_header();
   <div class="container" style="margin-top: 10rem;">
     <div class="row">
       <div class="col-sm-5">
-          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('event');?>"><?php _e('Community Events','wpml_theme'); ?></a></h5>
+          <h5 class="news-title-h2 p-1 t-center activity"><a href="<?php echo get_post_type_archive_link('cevent');?>"><?php _e('Community Events','wpml_theme'); ?></a></h5>
           <?php
             $today=date('Ymd');
             $events = new WP_Query(array(
               'posts_per_page' => 20,
-              'post_type' => 'event',
+              'post_type' => 'cevent',
               'meta_key'=>'event_date',
               'orderby' => 'meta_value_num',
               'order'=>'ASC',
@@ -53,7 +53,7 @@ get_header();
               </div>
           <?php  }
           ?>
-          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event');?>" class="btn btn--brown"><?php _e('View All Community Events!','wpml_theme'); ?></a></p>
+          <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('cevent');?>" class="btn btn--brown"><?php _e('View All Community Events!','wpml_theme'); ?></a></p>
 
         </div>
     <div class="col-sm-7" style="background-color:#ffffff; border-radius:20px;">
