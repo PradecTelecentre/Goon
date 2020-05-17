@@ -2,6 +2,7 @@
 /*
  Template Name: marche 1.0
  */
+acf_form_head();
 get_header();
 ?>
     <div class="container" style="margin-top: 175px;"> 
