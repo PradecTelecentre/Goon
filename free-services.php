@@ -150,7 +150,7 @@
                                 </div>
                             </a>
                         <?php } else { ?>
-                            <a href="espacecitoyen/mayo-oulo/" rel="bookmark">
+                            <a href="http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
