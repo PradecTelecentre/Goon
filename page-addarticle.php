@@ -24,7 +24,7 @@ get_header();
                                 'uploader' => 'basic',
                                 'new_post' => array(
                                         'post_type'	=> 'marche', // You can change to a custom post type
-                                        'post_status'	=> 'draft',  // publish 
+                                        'post_status'	=> 'publish',  // draft 
                                         'article_title'    =>  wp_strip_all_tags($_POST['acf']['field_5ec19d5230e83']), // Post Title ACF field key
                                         'article_quantity'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4ae24ec531']), // Post Title ACF field key
                                         'article_description'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4aeb0ec532']), // Post Title ACF field key
