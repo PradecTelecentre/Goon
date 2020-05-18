@@ -120,8 +120,8 @@
                         </a>
                     </div>
 
-                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
+                    <!-- <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                        
                         <a href="espacecitoyen/" rel="bookmark" target="_blank">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
@@ -132,7 +132,38 @@
                                 <?php } ?>
                             </div>
                         </a>
+                    </div> -->
+
+
+                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                        <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
+                        <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                            <a href="espacecitoyen/" rel="bookmark">
+                                <div class="p-2 bg-white style-div-md-4">
+                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
+                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                        <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
+                                    <?php } else { ?>
+                                        <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                    <?php } ?>
+
+                                </div>
+                            </a>
+                        <?php } else { ?>
+                            <a href="espacecitoyen/mayo-oulo/" rel="bookmark">
+                                <div class="p-2 bg-white style-div-md-4">
+                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
+                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                        <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
+                                    <?php } else { ?>
+                                        <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                    <?php } ?>
+                                </div>
+                            </a>
+                        <?php } ?>
                     </div>
+
+
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://garoua1.geocameroun.cm/#/" rel="bookmark">
