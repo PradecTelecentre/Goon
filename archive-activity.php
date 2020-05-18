@@ -35,10 +35,10 @@ get_header();
                             <div class="event-summary">
                               <a class="event-summary__date t-center" href="<?php the_permalink();?>">
                                 <span class="event-summary__month"><?php
-                                $event_date = new DateTime(get_field('community_event_date'));
-                                echo $event_date->format('M');
+                                $communityevent_date=strtotime(get_field('community_event_date'));
+                                echo date_i18n('M',$communityevent_date);
                                 ?></span>
-                                <span class="event-summary__day"><?php echo $event_date->format('d');?></span>
+                                <span class="event-summary__day"><?php echo date_i18n('d',$communityevent_date);?></span>
                               </a>
                               <p class="event-summary__content"><?php echo wp_trim_words(get_the_content(), 30); ?><a href="<?php the_permalink();?>" class="ac gray"><br><?php _e('Read more','wpml_theme');?></a></p>
                             </div>
