@@ -41,9 +41,9 @@ get_header();
                     //$communityevent_date = new DateTime(get_field('community_event_date'));
                     //echo $communityevent_date->format('M');
                     $communityevent_date=strtotime(get_field('community_event_date'));
-                    echo date('M',$communityevent_date);
+                    echo date_i18n('M',$communityevent_date);
                   ?></span>
-                  <span class="event-summary__day"><?php /*echo $communityevent_date->format('d');*/echo date('d',$communityevent_date);?></span>
+                  <span class="event-summary__day"><?php /*echo $communityevent_date->format('d');*/echo date_i18n('d',$communityevent_date);?></span>
                 </a>
                   <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
                   <p class="metabox metabox--activity"><?php _e('Posted by ','wpml_theme'); ?> <span style="color:black;"><?php the_author_posts_link();?> </span> <?php _e('on ','wpml_theme');?> <?php the_time('d/m/Y');?>.</p>
