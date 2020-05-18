@@ -12,8 +12,7 @@ get_header();
             <div class="col-lg-4 col-md-4 banniere" style="height: 650px" > 
                 <img src="<?= get_template_directory_uri() . '/src/img/market1.jpg' ?>" style="width:100%; height: 100vh";alt="">
                 <span class="top-left" style="">Marché</span>
-                <span class="preembule" style="">Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
-                    Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme
+                <span class="preembule" style="">
                 </span>
             </div>
 
