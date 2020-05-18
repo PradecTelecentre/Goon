@@ -3,8 +3,8 @@ acf_form_head();
 get_header();
 ?>
 <div class="container" style="margin-top: 175px;"> 
-    <div class="defilant" style="color:red" >  
-            <div class="row"> 
+    <div class="defilant" style="" >  
+            <div class="row d-flex justify-content-center"> 
                 <div class="col-md-6"> 
                     <?php
                     $new_post= array(
@@ -17,11 +17,11 @@ get_header();
                                 'html_after_fields' => '',
                                 'submit_value' => 'Submit Post',
                                 'updated_messag' => 'Saved!',
+                                'field_el'=>'div',
                                 'uploader' => 'basic',
                                 'new_post' => array(
                                         'post_type'	=> 'marche', // You can change to a custom post type
                                         'post_status'	=> 'publish',  // draft
-
                                         'article_title'    =>  wp_strip_all_tags($_POST['acf']['field_5ec19d5230e83']), // Post Title ACF field key
                                         'article_quantity'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4ae24ec531']), // Post Title ACF field key
                                         'article_description'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4aeb0ec532']), // Post Title ACF field key
@@ -36,3 +36,5 @@ get_header();
             </div>
         </div>
 </div>  
+<?php
+get_footer();
