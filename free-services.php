@@ -121,7 +121,7 @@
                     </div>
 
                     <!-- <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        
+
                         <a href="espacecitoyen/" rel="bookmark" target="_blank">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
@@ -138,7 +138,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://telecentrecameroon.ovh/espacecitoyen" rel="bookmark" target="_blank">
+                            <a href="http://telecentrecameroon.ovh/espacecitoyen/limbe/home" rel="bookmark" target="_blank">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -150,7 +150,7 @@
                                 </div>
                             </a>
                         <?php } else { ?>
-                            <a href="http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo" rel="bookmark" target="_blank">
+                            <a href="http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
