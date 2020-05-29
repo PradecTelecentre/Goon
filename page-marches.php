@@ -7,14 +7,15 @@ get_header();
 ?>
 
     <div class="container-fluid header__separator orange" style="background-color:red">
-            <div class="row">
-                    <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                            <path fill="whitesmoke" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
-                        </svg>
-                    </div>
+        <div class="row">
+            <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path fill="whitesmoke" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+                </svg>
             </div>
+        </div>
     </div>
+
     <div class="container" style=""> 
         <div class="defilant" style="color:red" >  <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
             Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
@@ -162,7 +163,7 @@ get_header();
 
         <style>
             
-        @media screen and (max-width: 768px){
+            @media screen and (max-width: 768px){
                 .banniere{
                     display: none;
                 }
@@ -232,7 +233,33 @@ get_header();
                 font-family: "Playfair Display", Georgia, "Times New Roman", serif;
                 font-size:15px;
             }
+            
 
+            @media only screen and (max-width: 999px) {
+                .elementor-shape{
+                    display: none;
+                }
+                .elementor *, .elementor ::after, .elementor ::before {
+                    display: none;
+                }
+    
+                .elementor-14 .elementor-element.elementor-element-8fae871 > .elementor-shape-bottom svg {
+                    display: none;
+                }
+                .elementor-shape svg {
+                    display: none;
+                }
+                .header__separator{
+                    background: #db8428;
+                    height: 85px;
+                    position: absolute;
+                    top: 50px;
+                    z-index: 0;
+                }
+                .produits{
+                    margin-top: 50px;
+                }
+            }
 
 
             @media only screen and (max-width: 1199px) {
