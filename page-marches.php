@@ -5,8 +5,8 @@
 acf_form_head();
 get_header();
 ?>
-    <div class="container" style="margin-top: 175px;"> 
-        <div class="container-fluid header__separator orange">
+    <div class="container" style=""> 
+        <div class="container-fluid header__separator orange" style="background-color:red">
             <div class="row">
                     <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
