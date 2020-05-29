@@ -105,61 +105,7 @@ get_header();
                 </div>          
             </div>
             <!-- The Modal -->
-            <div class="modal" id="nouvelArticle">
-                <div class="modal-dialog">
-                    <form class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Nouvel article</h4>
-                            <button type="button btn-sm" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <div class="market">
-                                <!-- <form class="market_form" name="market_form" id="market_form" method="post"> -->
-                                    <div class="form-group">
-                                        <label for="article_title">Title:</label>
-                                        <input type="text" name="article_title" class="form-control" placehoder="Titre"/> 
-                                    </div> 
-                                    <div class="form-group">
-                                        <label for="article_quantity">Quantite:</label>
-                                        <input type="number" name="article_quatity" class="form-control" placehoder="Titre"/> 
-                                    </div> 
-                                    <div class="form-group">
-                                        <label for="description">Description:</label>
-                                        <textarea name="article_description" class="form-control" rows="5" id="name="article_description""></textarea>
-                                    </div> 
-                                    <div class="form-group">
-                                        <label for="article_prix">Prix:</label>
-                                        <input type="number" name="article_prix" class="form-control" placehoder="Titre"/> 
-                                    </div> 
-                                    <div class="form-group">
-                                        <label for="article_proprietaire">Nom:</label>
-                                        <input type="text" name="article_proprietaire" class="form-control" placehoder="Titre"/> 
-                                    </div> 
-
-                                    <div class="form-group">
-                                        <label for="article_numero">Numero de telephone:</label>
-                                        <input type="number" name="article_numero" class="form-control" placehoder="Titre"/> 
-                                    </div> 
-                                    
-                                    
-                                <!-- </form> -->
-                            </div>	
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            
-                            <button type="submit" value="Submit" name="market_submit" class="btn btn-success">Submit</button>
-                            
-                            <button type="button btn-sm" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
+         
         </div>
 
         <style>
@@ -261,11 +207,6 @@ get_header();
                     margin-top: 50px;
                 }
             }
-
-
-          
-
-         
 
         </style>
     </div>
