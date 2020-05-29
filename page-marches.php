@@ -5,8 +5,8 @@
 acf_form_head();
 get_header();
 ?>
-    <div class="container" style=""> 
-        <div class="container-fluid header__separator orange" style="background-color:red">
+
+    <div class="container-fluid header__separator orange" style="background-color:red">
             <div class="row">
                     <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
@@ -14,7 +14,8 @@ get_header();
                         </svg>
                     </div>
             </div>
-        </div>
+    </div>
+    <div class="container" style=""> 
         <div class="defilant" style="color:red" >  <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
             Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
         </div>
@@ -230,6 +231,50 @@ get_header();
                 color:#000000 !important;
                 font-family: "Playfair Display", Georgia, "Times New Roman", serif;
                 font-size:15px;
+            }
+
+
+
+            @media only screen and (max-width: 1199px) {
+                .top-left {
+                    position: absolute;
+                    top: 0;
+                    left: 15px;
+                    background-color: darkorange;
+                    padding: 5px;
+                }
+
+                .elementor-shape{
+                    overflow: hidden;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    line-height: 0;
+                    direction: ltr;
+                    height: 180px;
+                    top: 53px;
+                    z-index: 0;
+                }
+                .elementor *, .elementor ::after, .elementor ::before {
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+    
+                .elementor-14 .elementor-element.elementor-element-8fae871 > .elementor-shape-bottom svg {
+                    width: calc(200% + 1.3px);
+                    height: 470px;
+                }
+                .elementor-shape svg {
+                    display: block;
+                    width: calc(100% + 1.3px);
+                    position: relative;
+                    left: 50%;
+                    -webkit-transform: translateX(-50%);
+                    -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                    top: 80px;
+                }
             }
 
         </style>
