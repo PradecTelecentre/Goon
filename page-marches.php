@@ -60,7 +60,7 @@ get_header();
                                                             <div class="champ-commun" style="">   
                                                                 <?php  
                                                                 if(the_title() == "") { 
-                                                                    the_field('nom');
+                                                                   the_field('article_title');
                                                                 }else{
                                                                     the_title(); 
                                                                 }   
