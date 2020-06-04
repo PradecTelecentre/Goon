@@ -11,6 +11,16 @@
 
 get_header();
 ?>
+
+    <div class="container-fluid header__separator orange" style="background-color:darkorange; height: 134px;margin-top: 51px;">
+        <div class="row">
+            <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path fill="whitesmoke" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
     <div class="container" style="margin-top: 175px;" > 
         <div class="row"> 
             <div class="col-lg-4 col-md-4 banniere" style="height: 650px" > 
