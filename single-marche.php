@@ -73,7 +73,8 @@ get_header();
                                     <div class="col-lg-6 col-md-6  col-sm-6 col-xs-12" style="margin-bottom:50px">             
                                                 <div class="row d-flex flex-row"> 
                                                             
-                                                    <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"> Article:  <?php the_title(); ?></div>
+                                                    <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"> Article:  <?php the_title(); the_field('article_title') ; ?></div> 
+                                                    <div class="champ-commun" style="">  <?php the_field('article_title') ;  ?> </div>
                                                     <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"><?php the_field('article_quantity') ?> disponible(s) </div>
                                                     <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;"> Tel: <?php the_field('article_numero') ?></div>
                                                     <div class="champ-commun col-lg-12 col-md-12  col-sm-12 col-xs-12" style="font-size: 20px;">Vendeur: <?php the_field('article_proprietaire') ?></div>
