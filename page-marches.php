@@ -59,7 +59,7 @@ get_header();
                                                         <div class="col">
                                                             <div class="champ-commun" style="">   
                                                                 <?php  
-                                                                if(the_title() == "") { 
+                                                                if(empty(the_title())) { 
                                                                     echo the_field('article_title');
                                                                 }else{
                                                                     the_title(); 
