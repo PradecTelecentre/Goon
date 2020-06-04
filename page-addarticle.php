@@ -12,7 +12,7 @@ get_header();
         </div>
     </div>
 </div>
-<div class="container" style="margin-top: 175px;"> 
+<div class="container" style=""> 
     <div class="defilant" style="color:red" >  <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
         Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
     </div>
