@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="container content-area" style="margin-top: 175px;">
 		<main id="main" class="site-main">
 
 			<section class="error-404 not-found">
