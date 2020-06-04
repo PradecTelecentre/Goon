@@ -57,7 +57,15 @@ get_header();
                                                 $data->the_post(); ?>
                                                 <div class="row d-flex flex-row"> 
                                                         <div class="col">
-                                                            <div class="champ-commun" style="">   <?php the_title(); ?></div>
+                                                            <div class="champ-commun" style="">   
+                                                                <?php  
+                                                                if(the_title() == "") { 
+                                                                    the_field('nom');
+                                                                }else{
+                                                                    the_title(); 
+                                                                }   
+                                                                ?> 
+                                                                </div>
                                                             <div class="text-muted" style="font-size: 20px;"><?php the_field('article_quantity') ?> disponible </div>
                                                         </div>
                                                         <div class="col">
