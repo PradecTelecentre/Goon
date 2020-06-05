@@ -75,10 +75,11 @@ get_header();
                                                     </a>
                                                     <div class="bottom-left"> <?php the_field('article_prix') ?> CFA</div>
                                                 </div>
-                                                <br>
+                                               
                                                 <?php endif; ?>
                                                 
                                         </div>
+                                        <br>
                                     <?php
                                 endwhile;  // End the loop.
                                 //pagination
