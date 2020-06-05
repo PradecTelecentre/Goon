@@ -78,9 +78,6 @@ get_header();
                                                 <?php endif; ?>
                                                 
                                         </div>
-                                    
-                                
-                                    
                                     <?php
                                 endwhile;  // End the loop.
                                 //pagination
