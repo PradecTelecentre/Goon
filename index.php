@@ -18,12 +18,12 @@ get_header();
 
 <div class="container-fluid" style="margin-top: 100px">
     <div class="row">
-        <div class="col-md-4" style="padding: 99px">
+        <div class="col-md-4" style="padding: 120px">
             <hr class="hr-news">
             <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                 <h4 class="news-title-h2 p-1">NEWS IN THE COMMUNITY</h4>
             <?php } else { ?>
-                <h4 class="news-title-h2 p-1">NOUVELLES DANS LA COMMUNAUTE</h4>
+                <h4 class="news-title-h2 p-1">ANNOUNCEMENTS AND NEWS IN THE COMMUNITY</h4>
             <?php } ?>
         </div>
         <div class="col-md-8 content-area" style="padding: 40px">
@@ -66,7 +66,7 @@ get_header();
                                         <?php
                                                 the_post();
                                                 the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>'); ?>
-                                        <small class="lead"><a href="<?= esc_url(get_permalink()) ?>" rel="bookmark">Lire la suite</a></small>
+                                        <small class="lead"><a href="<?= esc_url(get_permalink()) ?>" rel="bookmark">Read More</a></small>
                                         <?php //the_excerpt();
                                                 ?>
                                     </div>

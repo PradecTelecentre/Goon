@@ -15,7 +15,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
+                                    <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
                                 <?php } ?>
                               
                             </div>
@@ -23,14 +23,14 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.cm:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.cm:8080/en/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">J'apprend J'avance</h1>
+                                    <h1 class="bottom-left p-2 mt-2">LEARNING NEVER ENDS</h1>
                                 <?php } ?>
                               
                             </div>
@@ -46,7 +46,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
+                                    <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
                                 <?php } ?>
                                
                             </div>
@@ -61,7 +61,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">PARLONS ENSEMBLE</h1>
+                                    <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
                                 <?php } ?>
                                
                             </div>
@@ -76,7 +76,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">MARKET</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
+                                    <h1 class="bottom-left p-2 mt-2">MARKET</h1>
                                 <?php } ?>
                                 
                             </div>
@@ -91,7 +91,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
+                                    <h1 class="bottom-left p-2 mt-2"> TELECENTER ACTIVITIES</h1>
                                 <?php } ?>
                                
                             </div>
@@ -106,7 +106,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                    <h1 class="bottom-left p-2 mt-2">CITIZEN SPACE</h1>
                                 <?php } ?>
                                
                             </div>
@@ -120,7 +120,7 @@
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
+                                    <h1 class="bottom-left p-2 mt-2">ENTERTAINMENT</h1>
                                 <?php } ?>
                                 
                             </div>
