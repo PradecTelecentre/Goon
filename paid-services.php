@@ -28,7 +28,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://espace.mandama.cm/index.php/login" target="_blank" rel="bookmark" style="background: #fff !important">
+                        <a href="owncloud.goon.cm" target="_blank" rel="bookmark" style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/document.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
@@ -47,7 +47,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http:espace.mandama.cm/index.php/apps/files/?dir=/&fileid=3" rel="bookmark" style="background: #fff !important" data-toggle="modal" data-target="#construction">
+                        <a href="owncloud.goon.cm" rel="bookmark" style="background: #fff !important" data-toggle="modal" data-target="#construction">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apps.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
