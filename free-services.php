@@ -118,7 +118,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.goon.cm" rel="bookmark" data-toggle="modal" data-target="#construction">
+                        <a href="http://geocommunal.goon.cm" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
