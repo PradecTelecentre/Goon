@@ -11,30 +11,22 @@
 
 get_header();
 ?>
-
-    <div class="container-fluid header__separator orange" style="background-color:darkorange; height: 134px;margin-top: 51px;">
-        <div class="row">
-            <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                    <path fill="whitesmoke" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
-                </svg>
-            </div>
+    <div class="" style="margin-top: 53px; position:relative; background-color: darkorange; height: 375px; border-radius: 1px 1px 100px 100px; padding-top: 30px">
+    <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
+        Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
+        <div class="image text-center" style="opacity:0.4; position: relative; text-align:center; color:white;">
+            <img class="" src="<?= get_template_directory_uri() . '/src/img/marche3.jpg' ?>" alt="" style="height:260px; ">
+            <div class="" style="position: absolute; top:30%; left: 50%;  transform: translate(-50%, -50%); font-size: 44px; color: #FFFFFF; font-weight: 600; font-family: 'Roboto Slab', Sans-serif !important; text-transform: uppercase;" >MARCHÉ</div>
         </div>
+      
     </div>
+    
     <div class="container" style="" >
-        <div class="defilant" style="color:red" >  <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
-            Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
-        </div>
+        
         <div class="row"> 
-            <div class="col-lg-4 col-md-4 banniere" style="height: 650px" > 
-                <img src="<?= get_template_directory_uri() . '/src/img/market1.jpg' ?>" style="width:100%; height: 100vh";alt="">
-                <span class="top-left" style="">Marché</span>
-                <span class="preembule" style="">
-                </span>
-            </div>
+           
 
-            
-
+    
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 articleDiv" style="">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
