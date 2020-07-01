@@ -21,73 +21,51 @@ get_header();
                 <h1> principale </h1>
             </div>
         </div>
-
-
+    
         <div class="text-center container row">
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
-                <!-- Card -->
-                <div class="card">
-                    <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
-                    <div class="card-body">
-                        <h5 class="text-center"> Artice x </h5>
-                        <p class="small text-muted text-uppercase text-center"> 01 disponible</p>
-                        <hr>
-                        <h6 class="mb-3 text-center">
-                            <span class="text-danger "> 100000 FCFA</span>
-                        </h6>
-                        <a href="#" class="btn btn-light btn-sm mr-1 mb-2"> Details</a>
-                    </div>
-                </div>
-                <!-- Card -->
-            </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
-                <!-- Card -->
-                <div class="card">
-                    <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
-                    <div class="card-body">
-                        <h5 class="text-center"> Artice x </h5>
-                        <p class="small text-muted text-uppercase text-center"> 01 disponible</p>
-                        <hr>
-                        <h6 class="mb-3 text-center">
-                            <span class="text-danger "> 100000 FCFA</span>
-                        </h6>
-                        <a href="#" class="btn btn-light btn-small mr-1 mb-2"> Details</a>
-                    </div>
-                </div>
-                <!-- Card -->
-            </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
-                <!-- Card -->
-                <div class="card">
-                    <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
-                    <div class="card-body">
-                        <h5 class="text-center"> Artice x </h5>
-                        <p class="small text-muted text-uppercase text-center"> 01 disponible</p>
-                        <hr>
-                        <h6 class="mb-3 text-center">
-                            <span class="text-danger "> 100000 FCFA</span>
-                        </h6>
-                        <a href="#" class="btn btn-light btn-small mr-1 mb-2"> Details</a>
-                    </div>
-                </div>
-                <!-- Card -->
-            </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
-                <div class="card">
-                    <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
-                    <div class="card-body">
-                        <h5 class="text-center"> Artice x </h5>
-                        <p class="small text-muted text-uppercase text-center"> 01 disponible</p>
-                        <hr>
-                        <h6 class="mb-3 text-center">
-                            <span class="text-danger "> 100000 FCFA</span>
-                        </h6>
-                        <a href="#" class="btn btn-light btn-small mr-1 mb-2"> Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+            <?php
+                // Querry start here.  print 6 articles per pages
+                $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                    $marche = array(
+                        'post_type' => 'marche', 
+                        'posts_per_page' => 2,
+                        'paged' => $paged,
+                    );
+                // run Our custom query
+                $data = new WP_Query($marche);
+                // Start the Loop
+                if($data->have_posts() ) :
+                    while ($data->have_posts() ) : ?>
+                        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
+                            <!-- Card -->
+                            <?php 
+                            // rander a view  
+                            $data->the_post(); ?>  
+                            <div class="card">
+                                <?php 
+                                $image = get_field('article_photo');
+                                if(!empty($image)): ?> 
+                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="";alt="">
+                                <?php endif; ?>
+                                <div class="card-body">
+                                    <h5 class="text-center"><?php   the_title();  the_field('article_nom') ; ?> </h5>
+                                    <p class="small text-muted text-uppercase text-center"> <?php the_field('article_quantity') ?>  disponible</p>
+                                    <hr>
+                                    <h6 class="mb-3 text-center">
+                                        <span class="text-danger "> <?php the_field('article_prix') ?> FCFA</span>
+                                    </h6>
+                                    <a href="<?php the_permalink() ?>" class="btn btn-light btn-sm mr-1 mb-2"> Details</a>
+                                </div>
+                            </div>
+                        <!-- Card -->
+                        </div>
+                        <?php
+                    endwhile;  // End the loop.
+                    ?>
+        </div> 
+        <?php  endif;   
+                wp_reset_postdata();
+        ?>                
         <div class="container row m-3" style="background-color:red"> 
             <div class="col-12">
                 <div class="text-center"> 
@@ -97,5 +75,5 @@ get_header();
         </div>  
     </div>
     
-<?php 
+<?php
 get_footer();
