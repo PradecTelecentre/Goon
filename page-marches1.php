@@ -63,9 +63,9 @@ get_header();
                     endwhile;  // End the loop.
                     ?>
         </div>                 
-        <div class="container row m-3" style="background-color:red"> 
+        <div class="container row m-3" style=""> 
             <div class="col-12">
-                <div class="text-center"> 
+                <div class="text-center" style="font-size:250px; font-weight:600"> 
                      <?php 
                     $total_pages = $data->max_num_pages;
 
