@@ -45,7 +45,7 @@ get_header();
                                 <?php 
                                 $image = get_field('article_photo');
                                 if(!empty($image)): ?> 
-                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="";alt="">
+                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 275px;";alt="">
                                 <?php endif; ?>
                                 <div class="card-body">
                                     <h5 class="text-center"><?php   the_title();  the_field('article_nom') ; ?> </h5>
