@@ -20,16 +20,16 @@ get_header();
         </div>
     </div>
     
-    <div class="container" style="background-color:blue; margin-top:-65px" >
+    <div class="container" style="background-color:blue; margin-top:-65px; " >
         
-       <h1>Details sur l'article </h1>
+       
 
-        <div class="container row text-center" > 
+        <div class="container row text-center" style="position:absolute;"> 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
                 <?php 
                     $marche = array(
                     'post_type' => 'marche', 
-                    'posts_per_page' => 6,
+                    'posts_per_page' => 4,
                     );
                     // Start Our custom query
                     $data = new WP_Query($marche);
@@ -37,14 +37,31 @@ get_header();
                 
                 ?>
                 <div class="row"> 
-                    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                    <img class="img-fluid w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
-                        alt="Sample">
-                    </div>
+                    <?php  while (have_posts() ) : ?>
+                        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                            <?php 
+                                the_post();
+                                $image = get_field('article_photo');
+                                if(!empty($image)): ?> 
+                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 210px;";alt="">
+                            <?php endif; ?>
+                        </div>
 
-                    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                        <h1> nom</h1>
-                    </div>
+                        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                            <h5 style="font-weight: 500;"> titre de l'article </h5>
+                            <span class="mr-1">
+                                <strong> 1500 FCFA</strong> 
+                            </span>
+                            <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
+                                error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
+                                officia quis dolore quos sapiente tempore alias.
+                            </p>
+                            <hr>
+                            <div class="" style=""> proprietaire </div>
+                            <div class="contact" style=""> 697989692</div>
+                        </div>
+                    <?php  endwhile; // End the loop.
+                    ?>
                 </div>
 
             </div>
