@@ -21,9 +21,6 @@ get_header();
     </div>
     
     <div class="container" style="background-color:blue; margin-top:-65px; " >
-        
-       
-
         <div class="container row text-center" style="position:absolute;"> 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
                 <?php 
@@ -36,7 +33,16 @@ get_header();
                     // Start the Loop.
                 
                 ?>
+                <div class="mainheader"> 
+                   <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
+                            <a class="btn btn-sm"  href="https://telecentrecameroon.ovh/marches1/" style="background-color:orange"> Retour </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> </div>
+                   </div>
+                </div>
                 <div class="row"> 
+                    
                     <?php  while (have_posts() ) : ?>
                         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                             <?php 
