@@ -28,7 +28,7 @@ get_header();
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                     $marche = array(
                         'post_type' => 'marche', 
-                        'posts_per_page' => 8,
+                        'posts_per_page' => 4,
                         'paged' => $paged,
                     );
                 // run Our custom query
