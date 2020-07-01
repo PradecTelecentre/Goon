@@ -24,7 +24,7 @@ get_header();
 
 
         <div class="text-center container row">
-            <div class="col-3"> 
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
                 <!-- Card -->
                 <div class="card">
                     <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
@@ -40,7 +40,7 @@ get_header();
                 </div>
                 <!-- Card -->
             </div>
-            <div class="col-3"> 
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
                 <!-- Card -->
                 <div class="card">
                     <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
@@ -56,7 +56,7 @@ get_header();
                 </div>
                 <!-- Card -->
             </div>
-            <div class="col-3"> 
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
                 <!-- Card -->
                 <div class="card">
                     <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
@@ -72,7 +72,7 @@ get_header();
                 </div>
                 <!-- Card -->
             </div>
-            <div class="col-3"> 
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"> 
                 <div class="card">
                     <img class="img w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
                     <div class="card-body">
