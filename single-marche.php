@@ -20,8 +20,8 @@ get_header();
         </div>
     </div>
     
-    <div class="container" style="background-color:blue; margin-top:-65px; " >
-        <div class="container row text-center" style="position:absolute;"> 
+    <div class="container" style=" margin-top:-65px; " >
+        <div class="container row text-center" style="position:absolute; background-color: #6c757d;"> 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
                 <?php 
                     $marche = array(
@@ -49,11 +49,11 @@ get_header();
                                 the_post();
                                 $image = get_field('article_photo');
                                 if(!empty($image)): ?> 
-                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 210px;";alt="">
+                                    <!-- <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 210px;";alt=""> -->
                             <?php endif; ?>
                         </div>
 
-                        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                        <!-- <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                             <h5 style="font-weight: 500;"> titre de l'article </h5>
                             <span class="mr-1">
                                 <strong> 1500 FCFA</strong> 
@@ -65,7 +65,7 @@ get_header();
                             <hr>
                             <div class="" style=""> proprietaire </div>
                             <div class="contact" style=""> 697989692</div>
-                        </div>
+                        </div> -->
                     <?php  endwhile; // End the loop.
                     ?>
                 </div>
