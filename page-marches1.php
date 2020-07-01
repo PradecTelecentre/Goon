@@ -65,7 +65,7 @@ get_header();
         </div>                 
         <div class="container row m-3" style=""> 
             <div class="col-12">
-                <div class="text-center" style="font-size:250px; font-weight:600"> 
+                <div class="text-center" style="font-size:250px; font-weight:bold"> 
                      <?php 
                     $total_pages = $data->max_num_pages;
 
