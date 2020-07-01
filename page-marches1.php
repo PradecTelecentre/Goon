@@ -45,7 +45,7 @@ get_header();
                                 <?php 
                                 $image = get_field('article_photo');
                                 if(!empty($image)): ?> 
-                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 275px;";alt="">
+                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 210px;";alt="">
                                 <?php endif; ?>
                                 <div class="card-body">
                                     <h5 class="text-center"><?php   the_title();  the_field('article_nom') ; ?> </h5>
@@ -62,14 +62,29 @@ get_header();
                         <?php
                     endwhile;  // End the loop.
                     ?>
-        </div> 
-        <?php  endif;   
-                wp_reset_postdata();
-        ?>                
+        </div>                 
         <div class="container row m-3" style="background-color:red"> 
             <div class="col-12">
                 <div class="text-center"> 
-                     1 2 3 
+                     <?php 
+                    $total_pages = $data->max_num_pages;
+
+                    if ($total_pages > 1){
+
+                        $current_page = max(1, get_query_var('paged'));
+
+                        echo paginate_links(array(
+                            'base' => get_pagenum_link(1) . '%_%',
+                            'format' => 'page/%#%',
+                            'current' => $current_page,
+                            'total' => $total_pages,
+                            'prev_text'    => __('« prev'),
+                            'next_text'    => __('next »'),
+                        ));
+                    }
+                endif;   
+                wp_reset_postdata();
+                     ?>
                 </div>
             </div>
         </div>  
