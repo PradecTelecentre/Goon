@@ -16,11 +16,11 @@ get_header();
     </div>
 
     <div class="container mainpage" style="background-color: transparent;  margin-top: -65px;"> 
-        <div class="row" type=""hidden>
+        <!-- <div class="row" type=""hidden>
             <div class="col-12 text-center" style="background-color: transparent">
                 <h1> principale </h1>
             </div>
-        </div>
+        </div> -->
     
         <div class="text-center container row">
             <?php
