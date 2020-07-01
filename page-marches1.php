@@ -10,7 +10,7 @@ get_header();
         Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
         <div class="image text-center" style="opacity:0.4; position: relative; text-align:center; color:white;">
             <img class="" src="<?= get_template_directory_uri() . '/src/img/marche3.jpg' ?>" alt="" style="height:260px; ">
-            <div class="" style="color: mintcream; position: absolute; top:30%; left: 50%;  transform: translate(-50%, -50%); font-size: 44px; color: #000000; font-weight: 600; font-family: 'Roboto Slab', Sans-serif !important; text-transform: uppercase;" >MARCHE</div>
+            <div class="" style="color: #FFFFFF; position: absolute; top:30%; left: 50%;  transform: translate(-50%, -50%); font-size: 44px; color: #000000; font-weight: 600; font-family: 'Roboto Slab', Sans-serif !important; text-transform: uppercase;" >MARCHÉ</div>
         </div>
       
     </div>
