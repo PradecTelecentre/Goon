@@ -21,7 +21,7 @@ get_header();
     </div>
     
     <div class="container" style=" margin-top:-65px; " >
-        <div class="container row text-center" style="position:absolute; background-color: #6c757d;"> 
+        <div class="container row text-center" style="position:absolute; background-color: whitesmoke;"> 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
                 <?php 
                     $marche = array(
@@ -41,7 +41,7 @@ get_header();
                    </div>
                 </div>
                 <div class="container " style=""> 
-                    <div class="row"
+                    <div class="row">
                         <?php  while (have_posts() ) : ?>
                             <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                                 <?php 
@@ -70,7 +70,6 @@ get_header();
                         <?php  endwhile; // End the loop. ?>
                     </div>
                 </div>
-
             </div>
         </div>
       
