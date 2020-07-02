@@ -53,15 +53,12 @@ get_header();
                             </div>
 
                             <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                <h5 style="font-weight: 500;"> <?php the_title(); the_field('article_nom') ; ?> </h5>
+                                <h5 style="font-weight: 600; "> <?php the_title(); the_field('article_nom') ; ?> </h5>
                                 <span class="mr-1">
                                     <strong class="shadow-sm" style="font-weight: 600; color: orange;"> <?php the_field('article_prix') ?> FCFA</strong> 
                                 </span>
                                 <p class="small text-muted  mb-2">Description</p>
-                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
-                                    error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
-                                    officia quis dolore quos sapiente tempore alias.
-                                </p>
+                                <p class="pt-1"> <?php the_field('article_description') ?></p>
                                 <hr>
                                 <p class="small text-muted  mb-2">Personne à contacter</p>
                                 <div class="row text-center " style="">
