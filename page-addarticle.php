@@ -16,7 +16,7 @@ get_header();
 
 
     <div class="container shadow " style=" margin-top:-65px; "> 
-        <div class="container row text-center" style="position:absolute; background-color: whitesmoke;"> 
+        <div class="container row " style="position:absolute; background-color: whitesmoke;"> 
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-4 pb-5 submitbutton"> 
                     <?php
                     $new_post= array(
@@ -53,6 +53,9 @@ get_header();
             font-size: 25px;
             font-weight:600;
         } 
+        .acf-field label{
+            font-size:22px;
+        }
      </style>               
 <?php
 get_footer();
