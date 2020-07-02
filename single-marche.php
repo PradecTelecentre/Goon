@@ -33,7 +33,7 @@ get_header();
                     // Start the Loop.
                 
                 ?>
-                <div class="mainheader"> 
+                <div class="mainheader" style="margin-bottom:8px"> 
                    <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
                             <a class="btn btn-sm"  href="https://telecentrecameroon.ovh/marches1/" style="background-color:#865a21"> Retour </a>
@@ -48,23 +48,25 @@ get_header();
                                     the_post();
                                     $image = get_field('article_photo');
                                     if(!empty($image)): ?> 
-                                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="";alt="">
+                                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="" alt="">
                                 <?php endif; ?>
                             </div>
 
-                            <!-- <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                <h5 style="font-weight: 500;"> titre de l'article </h5>
+                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                                <h5 style="font-weight: 500;"> <?php the_title(); the_field('article_nom') ; ?> </h5>
                                 <span class="mr-1">
-                                    <strong> 1500 FCFA</strong> 
+                                    <strong> <?php the_field('article_prix') ?> FCFA</strong> 
                                 </span>
                                 <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
                                     error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
                                     officia quis dolore quos sapiente tempore alias.
                                 </p>
                                 <hr>
-                                <div class="" style=""> proprietaire </div>
-                                <div class="contact" style=""> 697989692</div>
-                            </div> -->
+                                <div class="row">
+                                    <div class="proprio col-md-6 col-lg-6 col-xs-12 col-sm-12 shadow-sm p-3 mb-5 rounded" style="background-color:#865a21"> <?php the_field('article_proprietaire') ?> </div>
+                                    <div class="contact col-md-6 col-lg-6 col-xs-12 col-sm-12 shadow-sm p-3 mb-5 rounded" style="background-color:#865a21"> <?php the_field('article_numero') ?></div>
+                                </div>
+                            </div>
                         <?php  endwhile; // End the loop. ?>
                     </div>
                 </div>
