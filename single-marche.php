@@ -55,7 +55,7 @@ get_header();
                             <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                                 <h5 style="font-weight: 500;"> <?php the_title(); the_field('article_nom') ; ?> </h5>
                                 <span class="mr-1">
-                                    <strong class="bg-danger"> <?php the_field('article_prix') ?> FCFA</strong> 
+                                    <strong class="" style="font-weight: 500; color: #4f4f4f;"> <?php the_field('article_prix') ?> FCFA</strong> 
                                 </span>
                                 <p class="small text-muted  mb-2">Description</p>
                                 <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
@@ -64,10 +64,10 @@ get_header();
                                 </p>
                                 <hr>
                                 <p class="small text-muted  mb-2">Personne à contacter</p>
-                                <div class="row">
+                                <div class="row text-center">
 
-                                    <div type="" class="bg-primary btn-sm mr-1 mb-2"><?php the_field('article_proprietaire') ?> </div>
-                                    <div type="" class="bg-danger btn-sm px-3 mb-2"> +237 <?php the_field('article_numero') ?></div>
+                                    <div type="" class="bg-primary btn-sm mr-1 mb-2" style="font-size:25px; font-weight:600"><?php the_field('article_proprietaire') ?> </div>
+                                    <div type="" class="bg-danger btn-sm px-3 mb-2" style="font-size:30px; font-weight:600"> +237 <?php the_field('article_numero') ?></div>
                                    
                                 </div>
                             </div>
