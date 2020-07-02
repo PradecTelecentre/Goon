@@ -17,8 +17,8 @@ get_header();
 
     <div class="container shadow" style=" margin-top:-65px; "> 
         <div class="container row text-center" style="position:absolute; background-color: whitesmoke;"> 
-            <div class="row d-flex justify-content-center"> 
-                <div class="col-md-6"> 
+            <div class="row justify-content-center"> 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"> 
                     <?php
                     $new_post= array(
                                 'post_id' => 'new_post', // Unique identifier for the form
