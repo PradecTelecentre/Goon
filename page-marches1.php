@@ -18,7 +18,9 @@ get_header();
 
     <div class="container mainpage" style="background-color: transparent;  margin-top: -65px;"> 
         
-    
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a class="btn btn-dark btn-sm"  href="http://telecentrecameroon.ovh/addarticle"  style="background-color: darkorange">Nouvel article</a>
+        </div>
         <div class="text-center container row">
             <?php
                 // Querry start here.  print 6 articles per pages
