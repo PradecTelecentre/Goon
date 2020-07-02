@@ -57,15 +57,17 @@ get_header();
                                 <span class="mr-1">
                                     <strong class="bg-danger"> <?php the_field('article_prix') ?> FCFA</strong> 
                                 </span>
-                                <p class="small text-muted text-uppercase mb-2">Description</p>
+                                <p class="small text-muted  mb-2">Description</p>
                                 <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
                                     error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
                                     officia quis dolore quos sapiente tempore alias.
                                 </p>
                                 <hr>
+                                <p class="small text-muted  mb-2">Personne à contacter</p>
                                 <div class="row">
-                                    <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><?php the_field('article_proprietaire') ?> </button>
-                                    <button type="button" class="btn btn-danger btn-sm px-3 mb-2"> +237 <?php the_field('article_numero') ?></button>
+
+                                    <div type="" class="bg-primary btn-sm mr-1 mb-2"><?php the_field('article_proprietaire') ?> </div>
+                                    <div type="" class="bg-danger btn-sm px-3 mb-2"> +237 <?php the_field('article_numero') ?></div>
                                    
                                 </div>
                             </div>
