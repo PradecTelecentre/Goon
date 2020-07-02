@@ -36,38 +36,37 @@ get_header();
                 <div class="mainheader"> 
                    <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
-                            <a class="btn btn-sm"  href="https://telecentrecameroon.ovh/marches1/" style="background-color:orange"> Retour </a>
+                            <a class="btn btn-sm"  href="https://telecentrecameroon.ovh/marches1/" style="background-color:#865a21"> Retour </a>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> </div>
                    </div>
                 </div>
-                <div class="row"> 
-                    
-                    <?php  while (have_posts() ) : ?>
-                        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                            <?php 
-                                the_post();
-                                $image = get_field('article_photo');
-                                if(!empty($image)): ?> 
-                                    <!-- <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="height: 210px;";alt=""> -->
-                            <?php endif; ?>
-                        </div>
+                <div class="container " style=""> 
+                    <div class="row"
+                        <?php  while (have_posts() ) : ?>
+                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                                <?php 
+                                    the_post();
+                                    $image = get_field('article_photo');
+                                    if(!empty($image)): ?> 
+                                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" style="";alt="">
+                                <?php endif; ?>
+                            </div>
 
-                        <!-- <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                            <h5 style="font-weight: 500;"> titre de l'article </h5>
-                            <span class="mr-1">
-                                <strong> 1500 FCFA</strong> 
-                            </span>
-                            <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
-                                error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
-                                officia quis dolore quos sapiente tempore alias.
-                            </p>
-                            <hr>
-                            <div class="" style=""> proprietaire </div>
-                            <div class="contact" style=""> 697989692</div>
-                        </div> -->
-                    <?php  endwhile; // End the loop.
-                    ?>
+                            <!-- <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                                <h5 style="font-weight: 500;"> titre de l'article </h5>
+                                <span class="mr-1">
+                                    <strong> 1500 FCFA</strong> 
+                                </span>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
+                                    error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
+                                    officia quis dolore quos sapiente tempore alias.
+                                </p>
+                                <hr>
+                                <div class="" style=""> proprietaire </div>
+                                <div class="contact" style=""> 697989692</div>
+                            </div> -->
+                        <?php  endwhile; // End the loop. ?>
+                    </div>
                 </div>
 
             </div>
