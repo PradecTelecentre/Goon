@@ -55,20 +55,22 @@ get_header();
                             <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                                 <h5 style="font-weight: 500;"> <?php the_title(); the_field('article_nom') ; ?> </h5>
                                 <span class="mr-1">
-                                    <strong> <?php the_field('article_prix') ?> FCFA</strong> 
+                                    <strong class="bg-danger"> <?php the_field('article_prix') ?> FCFA</strong> 
                                 </span>
+                                <p class="small text-muted text-uppercase mb-2">Description</p>
                                 <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
                                     error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
                                     officia quis dolore quos sapiente tempore alias.
                                 </p>
                                 <hr>
                                 <div class="row">
-                                    <div class="proprio col-md-6 col-lg-6 col-xs-12 col-sm-12 shadow-sm p-3 mb-5 rounded" style="background-color:#865a21"> <?php the_field('article_proprietaire') ?> </div>
-                                    <div class="contact col-md-6 col-lg-6 col-xs-12 col-sm-12 shadow-sm p-3 mb-5 rounded" style="background-color:#865a21"> <?php the_field('article_numero') ?></div>
+                                    <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><?php the_field('article_proprietaire') ?> </button>
+                                    <button type="button" class="btn btn-danger btn-sm px-3 mb-2"> +237 <?php the_field('article_numero') ?></button>
+                                   
                                 </div>
                             </div>
                         <?php  endwhile; // End the loop. ?>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
