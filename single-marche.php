@@ -36,7 +36,7 @@ get_header();
                 <div class="mainheader" style="margin-bottom:8px"> 
                    <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
-                            <a class="btn btn-sm"  href="marches/" style="background-color:#865a21"> Retour </a>
+                            <a class="btn btn-sm"  href="garoua.goom.cm/marches/" style="background-color:#865a21"> Retour </a>
                         </div>
                    </div>
                 </div>
