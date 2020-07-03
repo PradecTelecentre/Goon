@@ -3,22 +3,21 @@ acf_form_head();
 get_header();
 ?>
 
-<div class="container-fluid header__separator orange" style="background-color:darkorange; height: 134px;margin-top: 51px;">
-    <div class="row">
-        <div class="elementor-shape elementor-shape-bottom orange" data-negative="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                <path fill="whitesmoke" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
-            </svg>
+    <div class="" style="margin-top: 53px; position:relative; background-color: darkorange; height: 375px; border-radius: 1px 1px 100px 100px; padding-top: 30px">
+        <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
+            Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  
+        </marquee>
+        <div class="image text-center" style="opacity:0.4; position: relative; text-align:center; color:white;">
+            <img class="" src="<?= get_template_directory_uri() . '/src/img/marche3.jpg' ?>" alt="" style="height:260px; ">
+            <div class="" style="position: absolute; top:30%; left: 50%;  transform: translate(-50%, -50%); font-size: 44px; color: #FFFFFF; font-weight: 600; font-family: 'Roboto Slab', Sans-serif !important; text-transform: uppercase;" >MARCHÉ</div>
         </div>
+      
     </div>
-</div>
-<div class="container" style=""> 
-    <div class="defilant" style="color:red" >  <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
-        Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
-    </div>
-    <div class="defilant" style="" >  
-            <div class="row d-flex justify-content-center"> 
-                <div class="col-md-6"> 
+
+
+    <div class="container shadow " style=" margin-top:-65px; "> 
+        <div class="container row " style="position:absolute; background-color: whitesmoke;"> 
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 pb-5 submitbutton"> 
                     <?php
                     $new_post= array(
                                 'post_id' => 'new_post', // Unique identifier for the form
@@ -45,9 +44,18 @@ get_header();
                                     ),
                     );
                     acf_form( $new_post); ?>
-                </div>
             </div>
         </div>
-</div>  
+    </div> 
+     <style>
+        .acf-form-submit input{
+            background-color: orange;
+            font-size: 25px;
+            font-weight:600;
+        } 
+        .acf-label label{
+            font-size:22px;
+        }
+     </style>               
 <?php
 get_footer();
