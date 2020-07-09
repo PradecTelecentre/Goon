@@ -3,7 +3,7 @@ acf_form_head();
 get_header();
 ?>
 
-    <div class="" style="margin-top: 53px; position:relative; background-color: darkorange; height: 375px; border-radius: 1px 1px 100px 100px; padding-top: 30px">
+    <div class="" style="margin-top: 53px; position:relative; background-color: #ea9f07; height: 375px; border-radius: 1px 1px 100px 100px; padding-top: 30px">
         <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
             Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  
         </marquee>
