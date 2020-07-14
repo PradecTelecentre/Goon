@@ -34,13 +34,13 @@ get_header();
                                 'new_post' => array(
                                         'post_type'	=> 'marche', // You can change to a custom post type
                                         'post_status'	=> 'publish',  // draft, pending, publish
-                                        'article_nom'    =>  wp_strip_all_tags($_POST['acf']['field_5ec19d5230e83']), // Post Title ACF field key
-                                        'article_quantity'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4ae24ec531']), // Post Title ACF field key
-                                        'article_description'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4aeb0ec532']), // Post Title ACF field key
-                                        'article_prix'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4af1dec533']), // Post Title ACF field key
-                                        'article_photo'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4af72ec534']), // Post Title ACF field key
-                                        'article_proprietaire'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4afcaec535']), // Post Title ACF field key
-                                        'article_numero'    =>  wp_strip_all_tags($_POST['acf']['field_5ea4b067ec536']), // Post Title ACF field key
+                                        'article_nom'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c68c61185b']), // Post Title ACF field key
+                                        'article_quantity'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c69041185c']), // Post Title ACF field key
+                                        'article_description'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c694b1185d']), // Post Title ACF field key
+                                        'article_prix'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c698c1185e']), // Post Title ACF field key
+                                        'article_photo'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c69c61185f']), // Post Title ACF field key
+                                        'article_proprietaire'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c6a0311860']), // Post Title ACF field key
+                                        'article_numero'    =>  wp_strip_all_tags($_POST['acf']['field_5f0c6a4711861']), // Post Title ACF field key
                                     ),
                     );
                     acf_form( $new_post); ?>
