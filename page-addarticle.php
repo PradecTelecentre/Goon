@@ -22,7 +22,7 @@ get_header();
                     $new_post= array(
                                 'post_id' => 'new_post', // Unique identifier for the form
                                 // PUT IN YOUR OWN FIELD GROUP ID(s)
-                                'field_groups' => array(1087), // Create post field group ID(s)
+                                'field_groups' => array(725), // Create post field group ID(s)
                                 'form' => true,
                                 'return' => '%post_url%' , // Redirect to new post url
                                 'html_before_fields' => '',
