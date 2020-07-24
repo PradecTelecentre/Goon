@@ -8,9 +8,9 @@
         <div class="col paids" style="margin-top:52px;">
             <div class="goon-container-fluid">
                 <div class="goon-row rows-free">
-                
+
                     <div class="free col paid-content-remove-spac">
-                        <a href="#" rel="bookmark" style="background: #fff !important">
+                        <a href="#" rel="bookmark" style="background: #fff !important" data-toggle="modal" data-target="#vaoucher">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/net.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
@@ -52,7 +52,7 @@
 
 
                     <div class="free col">
-                        <a href="#" rel="bookmark" style="background: #fff !important">
+                        <a href="#" rel="bookmark" style="background: #fff !important" data-toggle="modal" data-target="#construction">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apps.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
@@ -70,6 +70,50 @@
                         </a>
                     </div>
 
+                </div>
+            </div>
+        </div>
+        <!-- The Modal for the internet page in construction -->
+        <div class="modal" id="vaoucher">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">We use the Unifi Equipments from <a href="https://www.ui.com/">Ubiquiti Networks</a> for our Mesh Network.</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img src="<?= get_template_directory_uri() . '/src/img/construction/vaoucher.PNG' ?>" alt="">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal for all the page in construction -->
+        <div class="modal" id="construction">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Will be available in the next release.</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img src="<?= get_template_directory_uri() . '/src/img/construction/construction-eng.png' ?>" alt="">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
