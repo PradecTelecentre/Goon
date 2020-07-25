@@ -11,7 +11,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://telecentrecameroon.ovh/education/?lang=en" rel="bookmark">
+                            <a href="http://garoua.goon.cm/education/?lang=en" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -23,7 +23,7 @@
                                 </div>
                             </a>
                             <?php } else { ?>
-                                <a href="http://telecentrecameroon.ovh/education" rel="bookmark">
+                                <a href="http://garoua.goon.cm/education" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="https://kolibri-demo.learningequality.org/en/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://garoua.goon.cm:2020/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
@@ -54,7 +54,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://telecentrecameroon.ovh/news/?lang=en" rel="bookmark">
+                            <a href="http://garoua.goon.cm/news/?lang=en" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -66,7 +66,7 @@
                                 </div>
                             </a>
                         <?php } else { ?>
-                            <a href="http://telecentrecameroon.ovh/news" rel="bookmark">
+                            <a href="http://garoua.goon.cm/news" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -79,7 +79,7 @@
                         <?php } ?>
                     </div>
 
-                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                    <!-- <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://humhub.telecentrecameroon.ovh/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/messag.png' ?>" alt="">
@@ -90,7 +90,7 @@
                                 <?php } ?>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
@@ -138,7 +138,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://telecentrecameroon.ovh/espacecitoyen/limbe/home" rel="bookmark" target="_blank">
+                            <a href="http://garoua.goon.cm/espacecitoyen/mayo-oulo/" rel="bookmark" target="_blank">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -150,7 +150,7 @@
                                 </div>
                             </a>
                         <?php } else { ?>
-                            <a href="http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
+                            <a href="http://garoua.goon.cm/espacecitoyen/mayo-oulo/" rel="bookmark" target="_blank">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -180,7 +180,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/jFCxbWJujMfQklF" rel="bookmark" data-toggle="modal" data-target="#construction">
+                        <a href="http://owncloud.goon.cm" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
