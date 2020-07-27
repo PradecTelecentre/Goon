@@ -1,17 +1,17 @@
 <?php
 /**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WordPress
- * @subpackage Goon
- * @since Goon 2.0
- */
+* The template for displaying all single posts
+*
+* @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+*
+* @package WordPress
+* @subpackage Goon
+* @since Goon 2.0
+*/
 
 get_header();
 ?>
-    <div class="" style="margin-top: 53px; position:relative; background-color: #ea9f07; height: 375px; border-radius: 1px 1px 100px 100px; padding-top: 30px">
+    <div class="" style="margin-top: 53px; position:relative; background-color: darkorange; height: 375px; border-radius: 1px 1px 100px 100px; padding-top: 30px">
     <marquee> Les articles publiés dans GOON sont supprimés après un délais de 7 jours.
         Notez Bien tout contenu inapproprié est immédiatement supprimé de la plateforme  </marquee>
         <div class="image text-center" style="opacity:0.4; position: relative; text-align:center; color:white;">
@@ -34,11 +34,11 @@ get_header();
                 
                 ?>
                 <div class="mainheader" style="margin-bottom:8px"> 
-                   <div class="row">
+                <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
-                            <a class="btn btn-sm"  href="https://telecentrecameroon.ovh/marches/" style="background-color:#865a21"> Retour </a>
+                            <a class="btn btn-sm"  href="http://garoua.goon.cm/marches/" style="background-color:#865a21"> Retour </a>
                         </div>
-                   </div>
+                </div>
                 </div>
                 <div class="container " style=""> 
                     <div class="row">
