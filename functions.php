@@ -112,26 +112,26 @@ add_action( 'after_setup_theme', 'telecenter_content_width', 0 );
  */
 function telecenter_scripts() {
 
-	
+
 	wp_enqueue_style('telecenter-bs-css', get_template_directory_uri().  '/dist/css/bootstrap.css');
 
-	// wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon.css'); 
-	wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon-01.css'); 
-	wp_enqueue_style('telecenter-header-css', get_template_directory_uri() .  '/dist/css/header-01.css'); 
-	
-	wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/fonts/font-awesome/css/fontawesome.min.css'); 
+	// wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon.css');
+	wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon-01.css');
+	wp_enqueue_style('telecenter-header-css', get_template_directory_uri() .  '/dist/css/header-01.css');
+
+	wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/fonts/font-awesome/css/fontawesome.min.css');
 
 	wp_enqueue_style( 'telecenter-style', get_stylesheet_uri() );
 
-	
+
 
 	wp_enqueue_script('telecenter-tether', get_template_directory_uri(). '/src/js/tether.js', array(), '', true);
 	wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', false);
 	wp_register_script('popper', get_template_directory_uri() . '/dist/js/popper.min.js', array('jquery'), '', false);
 	wp_enqueue_script('popper');
 	wp_enqueue_script('telecenter-bootstrapp', get_template_directory_uri(). '/dist/js/bootstrap.min.js', array('jquery'), '', false);
-	
- 
+
+
 	// wp_enqueue_script( 'telecenter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'telecenter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -146,6 +146,29 @@ function telecenter_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'telecenter_scripts' );
+
+/*functions for news and events pages*/
+
+function events_adjust_queries($query){
+		//Before wordpress sends the query to the database, it gives you the final say to edit it.
+		if (!is_admin() AND is_post_type_archive('activity') AND $query->is_main_query()) {
+			$today=date('Ymd');
+			$query->set('meta_key','community_event_date');
+			$query->set('orderby','meta_value_num');
+			$query->set('order','ASC');
+			$query->set('meta_query', array(
+				array(
+					'key'=> 'community_event_date',
+					'compare'=> '>=',
+					'value'=> $today,
+					'type'=>'numeric'
+				)
+			));
+		}
+}
+add_action('pre_get_posts','events_adjust_queries');
+//end functions for custom posts
+
 
 /**
  * Implement the Custom Header feature.
@@ -191,34 +214,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 }
 
 add_action( 'init', 'create_movie_review' );
-function create_movie_review() {
-    register_post_type( 'services',
-        array(
-            'labels' => array(
-                'name' => 'Services',
-                'singular_name' => 'Service Review',
-                'add_new' => 'Add New',
-                'add_new_item' => 'Add New Service Review',
-                'edit' => 'Edit',
-                'edit_item' => 'Edit Service Review',
-                'new_item' => 'New Service Review',
-                'view' => 'View',
-                'view_item' => 'View Service Review',
-                'search_items' => 'Search Service Reviews',
-                'not_found' => 'No Movie Service found',
-                'not_found_in_trash' => 'No Movie Review found in Trash',
-                'parent' => 'Parent Service Review'
-            ),
 
-            'public' => true,
-            'menu_position' => 30,
-            'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields', 'excerpt' ),
-            'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
-            'has_archive' => true
-        )
-    );
-}
 
 function shapeSpace_display_search_form(){
 	return get_search_form(false);
