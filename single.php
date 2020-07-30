@@ -35,7 +35,7 @@ get_header();
                       <div class="generic-content">
                         <h2 class="headline headline--medium headline--post-title event-summary__title--com"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
                             <div class="metabox metabox--com">
-                              <p><a class="metabox__blog-home-link meta--com" href="<?php echo site_url('/news');?>"><?php _e('News Page','wpml_theme'); ?></a><span class="metabox__main"></span><?php _e('Posted by ','wpml_theme');?>
+                              <p><a class="metabox__blog-home-link meta--com" href="<?php echo site_url('/information');?>"><?php _e('News Page','wpml_theme'); ?></a><span class="metabox__main"></span><?php _e('Posted by ','wpml_theme');?>
                                  <?php the_author_posts_link();?>
                                  <?php _e(' on ','wpml_theme');?>
                                  <?php the_time('d/m/Y');?>
