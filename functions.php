@@ -22,7 +22,8 @@ if ( ! function_exists( 'telecenter_setup' ) ) :
 		 * If you're building a theme based on goon, use a find and replace
 		 * to change 'telecenter' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'telecenter', get_template_directory() . '/languages' );
+		 //function for language translations, wpml
+		load_theme_textdomain( 'wpml_theme', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -45,6 +46,8 @@ if ( ! function_exists( 'telecenter_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'primary' => esc_html__( 'Primary', 'telecenter' ),
+			'home' => esc_html__( 'Home','telecenter'),
+			'secondary' => esc_html__('Secondary','telecenter')
 		) );
 
 		/*
@@ -112,26 +115,26 @@ add_action( 'after_setup_theme', 'telecenter_content_width', 0 );
  */
 function telecenter_scripts() {
 
-	
+
 	wp_enqueue_style('telecenter-bs-css', get_template_directory_uri().  '/dist/css/bootstrap.css');
 
-	// wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon.css'); 
-	wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon-01.css'); 
-	wp_enqueue_style('telecenter-header-css', get_template_directory_uri() .  '/dist/css/header-01.css'); 
-	
-	wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/fonts/font-awesome/css/fontawesome.min.css'); 
+	// wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon.css');
+	wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon-01.css',NULL, microtime());
+	//wp_enqueue_style('telecenter-header-css', get_template_directory_uri() .  '/dist/css/header-01.css');
+
+	wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/fonts/font-awesome/css/fontawesome.min.css');
 
 	wp_enqueue_style( 'telecenter-style', get_stylesheet_uri() );
 
-	
+
 
 	wp_enqueue_script('telecenter-tether', get_template_directory_uri(). '/src/js/tether.js', array(), '', true);
 	wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', false);
 	wp_register_script('popper', get_template_directory_uri() . '/dist/js/popper.min.js', array('jquery'), '', false);
 	wp_enqueue_script('popper');
 	wp_enqueue_script('telecenter-bootstrapp', get_template_directory_uri(). '/dist/js/bootstrap.min.js', array('jquery'), '', false);
-	
- 
+
+
 	// wp_enqueue_script( 'telecenter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'telecenter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -147,10 +150,33 @@ function telecenter_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'telecenter_scripts' );
 
+/*functions for news and events pages*/
+
+function events_adjust_queries($query){
+		//Before wordpress sends the query to the database, it gives you the final say to edit it.
+		if (!is_admin() AND is_post_type_archive('activity') AND $query->is_main_query()) {
+			$today=date('Ymd');
+			$query->set('meta_key','community_event_date');
+			$query->set('orderby','meta_value_num');
+			$query->set('order','ASC');
+			$query->set('meta_query', array(
+				array(
+					'key'=> 'community_event_date',
+					'compare'=> '>=',
+					'value'=> $today,
+					'type'=>'numeric'
+				)
+			));
+		}
+}
+add_action('pre_get_posts','events_adjust_queries');
+//end functions for custom posts
+
 /**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
+
 
 /**
  * Custom template tags for this theme.
@@ -190,35 +216,6 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
 
-add_action( 'init', 'create_movie_review' );
-function create_movie_review() {
-    register_post_type( 'services',
-        array(
-            'labels' => array(
-                'name' => 'Services',
-                'singular_name' => 'Service Review',
-                'add_new' => 'Add New',
-                'add_new_item' => 'Add New Service Review',
-                'edit' => 'Edit',
-                'edit_item' => 'Edit Service Review',
-                'new_item' => 'New Service Review',
-                'view' => 'View',
-                'view_item' => 'View Service Review',
-                'search_items' => 'Search Service Reviews',
-                'not_found' => 'No Movie Service found',
-                'not_found_in_trash' => 'No Movie Review found in Trash',
-                'parent' => 'Parent Service Review'
-            ),
-
-            'public' => true,
-            'menu_position' => 30,
-            'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields', 'excerpt' ),
-            'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
-            'has_archive' => true
-        )
-    );
-}
 
 function shapeSpace_display_search_form(){
 	return get_search_form(false);
@@ -304,3 +301,33 @@ function wpbeginner_numeric_posts_nav() {
     echo '</ul></div>' . "\n";
 
 }
+
+//function to check if we are on the homepage and its child pages
+function is_child_of_front($pid) {      // $pid = The ID of the page we're looking for pages underneath
+	global $post;         // load details about this page
+	if(($post->post_parent==$pid)||is_page($pid))
+               return true;   // we're at the page or at a sub page
+	else
+               return false;  // we're elsewhere
+};
+
+//function to ensure that accordion is closed y default.
+function theme_wp_footer() {
+
+    ?>
+
+    <script>
+			jQuery(document).ready(function($) {
+					var delay = 100;
+					setTimeout(function() {
+						$('.elementor-tab-title').removeClass('elementor-active');
+						$('.elementor-tab-content').css('display', 'none');
+					}, delay);
+			});
+    </script>
+
+    <?php
+
+}
+
+add_action('wp_footer', 'theme_wp_footer', PHP_INT_MAX);
