@@ -12,11 +12,11 @@
                         <a href="education/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
-                                <?php } else { ?>
+                                <!-- <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
+                                    <h1 class="bottom-left p-2 mt-2">EDUCATION</h1> -->
+                                <!-- <?php } else { ?> -->
                                     <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
-                                <?php } ?>
+                                <!-- <?php } ?> -->
                             </div>
                         </a>
                     </div>
