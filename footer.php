@@ -14,8 +14,7 @@
 
 </div><!-- #content -->
 
-<footer id="colophon" class="site-footer hide-footer" style="margin-top: 100px;
-	bottom: 0;">
+<footer id="colophon" class="site-footer hide-footer" style="margin-top: 100px;bottom: 0;">
 
 
 	<div class="site-info bg-dark">
@@ -33,43 +32,43 @@
 	</div><!-- .site-info -->
 
 
-
-	<!-- <footer class="page-footer font-small  special-color-dark pt-4" style="background-color: #f07000">
-
-
+	<hr style="background-color:#ea9f07;height:20px;margin-bottom:-10px;">
+	<footer class="font-small special-color-dark pt-4" style="background-color: #ffffff">
 		<div class="container">
-
-
-			<ul class="list-unstyled list-inline text-center">
-
+			<ul class="list-inline">
 				<li class="list-inline-item">
 					<a class="btn-floating btn-tw mx-1">
-						<a href="#" class=""><img src="<?= get_template_directory_uri() . '/src/img/partner/GIZ-logo.04e04efc.png'  ?>" alt="" style="border-radius: 30px;height: 50px;"></a>
+						<a href="#" class=""><img src="<?= get_template_directory_uri() . '/src/img/partner/coop.jpg'?>" alt="" style="height:120px;width:150px;"></a>
 					</a>
 				</li>
 				<li class="list-inline-item">
 					<a class="btn-floating btn-gplus mx-1">
-						<img src="<?= get_template_directory_uri() . '/src/img/partner/ndere.638285ff.jpg'  ?>" alt="" style="border-radius: 30px;height: 50px;">
+						<img src="<?= get_template_directory_uri() . '/src/img/partner/ndere.638285ff.jpg'?>" alt="" style="height:90px;">
 					</a>
 				</li>
 				<li class="list-inline-item">
 					<a class="btn-floating btn-fb mx-1">
-						<img src="<?= get_template_directory_uri() . '/src/img/partner/buea.9be6528e.jpg'  ?>" alt="" style="border-radius: 30px;height: 50px;">
+						<img src="<?= get_template_directory_uri() . '/src/img/partner/buea.9be6528e.jpg'  ?>" alt="" style="height:90px;width:150px;margin:0px -5px 0px;">
 					</a>
 				</li>
 				<li class="list-inline-item">
 					<a class="btn-floating btn-li mx-1">
-						<img src="<?= get_template_directory_uri() . '/src/img/partner/minddevel.1ab0ecff.jpg'  ?>" alt="" style="border-radius: 30px;height: 50px;">
+						<img src="<?= get_template_directory_uri() . '/src/img/partner/minddevel.1ab0ecff.jpg'  ?>" alt="" style="height:90px;width:100px;">
 					</a>
 				</li>
 				<li class="list-inline-item">
 					<a class="btn-floating btn-dribbble mx-1">
-						<img src="<?= get_template_directory_uri() . '/src/img/partner/minpostel.3df38d3f.jpg'  ?>" alt="" style="border-radius: 30px;height: 50px;">
+						<img src="<?= get_template_directory_uri() . '/src/img/partner/minpostel.3df38d3f.jpg'  ?>" alt="" style="height:90px;">
 					</a>
 				</li>
 				<li class="list-inline-item">
 					<a class="btn-floating btn-fb mx-1">
-						<img src="<?= get_template_directory_uri() . '/src/img/partner/activspaces.png'  ?>" alt="" style="border-radius: 30px;height: 50px;">
+						<img src="<?= get_template_directory_uri() . '/src/img/partner/activspaces.png'  ?>" alt="" style="height:90px;width:100px;margin:0px 10px 0px;">
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn-floating btn-fb mx-1">
+						<img src="<?= get_template_directory_uri() . '/src/img/partner/giz-logo-en.jpg'?>" alt="" style="height:80px;width:180px;">
 					</a>
 				</li>
 			</ul>
@@ -79,16 +78,10 @@
 
 
 
-		<div class="footer-copyright text-center py-3">© 2019 Copyright:
-			<a href="https://mdbootstrap.com/education/bootstrap/"> goon.ovh</a>
-		</div>
+		<div class="footer-copyright text-center py-3">© 2020 Copyright</div>
 
 
-	</footer> -->
-
-
-</footer>
-
+	</footer>
 
 <?php wp_footer(); ?>
 
