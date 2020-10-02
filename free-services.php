@@ -23,7 +23,7 @@
                                 </div>
                             </a>
                             <?php } else { ?>
-                                <a href="http://goon.cm/education" rel="bookmark">
+                                <a href="http://goon.cm/education/" rel="bookmark">
                                 <div class="p-2 bg-white style-div-md-4">
                                     <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                     <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.cm:5000/login" rel="bookmark">
+                        <a href="http://www.goon.cm:5000/login" rel="bookmark" target="_blank"> 
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/messag.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
