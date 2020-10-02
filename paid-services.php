@@ -34,7 +34,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://fossdroid.goon.cm:8181/" rel="bookmark" style="background: #fff !important">
+                        <a href="http://fossdroid.goon.cm:8181/" rel="bookmark" target="_blank" style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apps.png' ?>" alt="" style="background: #fff !important">
                                 <div class="arrow" style="max-width: 201px; margin-right:auto; margin-left:auto;margin-top: -5px">
