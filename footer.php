@@ -38,8 +38,8 @@
             <ul class="list-inline">
                 <li class="list-inline-item">
                     <a class="btn-floating btn-tw mx-1" href="https://www.giz.de/en/html/index.html" target="_blank">
-                        <a href="#" class=""><img src="<?= get_template_directory_uri() . '/src/img/partner/coop.jpg'?>"
-                                alt="" style="height:120px;width:150px;"></a>
+                        <img src="<?= get_template_directory_uri() . '/src/img/partner/coop.jpg'?>" alt=""
+                            style="height:120px;width:150px;">
                     </a>
                 </li>
                 <li class="list-inline-item">
