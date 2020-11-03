@@ -11,7 +11,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                        <a href="http://www.goon.cm/education/?lang=en" rel="bookmark">
+                        <a href="http://www.goon.local/education/?lang=en" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -23,7 +23,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.cm/education/" rel="bookmark">
+                        <a href="http://www.goon.local/education/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.cm:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.local:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
@@ -54,7 +54,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                        <a href="http://www.goon.cm/nouvelles-locales-et-evenements/?lang=en" rel="bookmark">
+                        <a href="http://www.goon.local/nouvelles-locales-et-evenements/?lang=en" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -66,7 +66,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.cm/nouvelles-locales-et-evenements" rel="bookmark">
+                        <a href="http://www.goon.local/nouvelles-locales-et-evenements" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -94,7 +94,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.cm/marches-2/" rel="bookmark">
+                        <a href="http://www.goon.local/marches-2/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -139,7 +139,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                        <a href="http://www.goon.cm/espacecitoyen/limbe/home" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.local/espacecitoyen/limbe/home" rel="bookmark" target="_blank">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -151,7 +151,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.cm/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://garoua1.geocameroun.cm/#/" rel="bookmark">
+                        <a href="http://garoua1.geocameroun.local/#/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -180,7 +180,7 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false )  { ?>
-                        <a href="http://www.goon.cm/game/?lang=en" rel="bookmark">
+                        <a href="http://www.goon.local/game/?lang=en" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -191,7 +191,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.cm/divertissement/" rel="bookmark">
+                        <a href="http://www.goon.local/divertissement/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
