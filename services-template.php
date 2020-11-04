@@ -24,12 +24,12 @@ get_header();
                     style="font-size: 1.2rem; text-transform: uppercase;"><?php _e('Video Presentation of GOON','wpml_theme'); ?></span>
             </div>
 
-            <div class="modal-body mr-auto ml-auto">
+            <!-- <div class="modal-body mr-auto ml-auto">
                 <video controls autoplay="true" height="100%" width="100%" id="sound">
                     <source src="<?php echo get_template_directory_uri() ?>/src/video/presentations.mp4"
                         type="video/mp4">
                 </video>
-            </div>
+            </div> -->
 
         </div>
 
