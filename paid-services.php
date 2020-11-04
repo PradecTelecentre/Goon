@@ -5,8 +5,7 @@
             <div class="goon-container-fluid">
                 <div class="goon-row rows-free">
                     <div class="free col paid-content-remove-spac">
-                        <a href="#" rel="bookmark" style="background: #fff !important" data-toggle="modal"
-                            data-target="#vaoucher">
+                        <a href="google.fr" rel="bookmark" style="background: #fff !important" target="_blank">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/net.png' ?>" alt=""
                                     style="background: #fff !important">
@@ -45,7 +44,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://fossdroid.goon.cm:8181/" rel="bookmark" target="_blank"
+                        <a href="#" rel="bookmark" target="_blank" data-toggle="modal" data-target="#construction"
                             style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apps.png' ?>" alt=""

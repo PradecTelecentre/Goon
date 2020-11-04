@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.africa:3000/channel/general" rel="bookmark" target="_blank">
+                        <a href="#" rel="bookmark" target="_blank" data-toggle="modal" data-target="#construction">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/messag.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -94,7 +94,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local/marches-2/" rel="bookmark">
+                        <a href="http://www.goon.local/marches/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -139,7 +139,7 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                        <a href="http://www.goon.local/espacecitoyen/limbe/home" rel="bookmark" target="_blank">
+                        <a href="#" rel="bookmark" target="_blank" data-toggle="modal" data-target="#construction">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -151,7 +151,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
+                        <a href="#" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://garoua1.geocameroun.local/#/" rel="bookmark">
+                        <a href="#" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -203,10 +203,7 @@
                         </a>
 
                         <?php  }?>
-
                     </div>
-
-
                 </div>
             </div>
         </div>
