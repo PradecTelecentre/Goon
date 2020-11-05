@@ -15,21 +15,21 @@
                                 <!-- <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                     <h1 class="bottom-left p-2 mt-2">EDUCATION</h1> -->
                                 <!-- <?php } else { ?> -->
-                                    <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
+                                <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
                                 <!-- <?php } ?> -->
                             </div>
                         </a>
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.mandama.cm:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.local:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apprend.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
+                                <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">J'apprend J'avance</h1>
+                                <h1 class="bottom-left p-2 mt-2">J'apprend J'avance</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -42,9 +42,9 @@
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
+                                <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
+                                <h1 class="bottom-left p-2 mt-2">LES NOUVELLES</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -56,9 +56,9 @@
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/message.png' ?>" alt="">
 
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
+                                <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">PARLONS ENSEMBLE</h1>
+                                <h1 class="bottom-left p-2 mt-2">PARLONS ENSEMBLE</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -66,13 +66,13 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.mandama.cm/marches" rel="bookmark">
+                        <a href="http://www.goon.local/marches" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">MARKET</h1>
+                                <h1 class="bottom-left p-2 mt-2">MARKET</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
+                                <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -84,21 +84,21 @@
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
+                                <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
+                                <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
                                 <?php } ?>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.mandama.cm/espacecitoyen/mayo-oulo/home" rel="bookmark">
+                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/home" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
+                                <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -109,26 +109,27 @@
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
+                                <h1 class="bottom-left p-2 mt-2"> ENTERTAINMENT</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
+                                <h1 class="bottom-left p-2 mt-2"> DIVERTISSEMENTS</h1>
                                 <?php } ?>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.telecentrecameroon.ovh/index.php/s/VSuNWQaEARsy069" rel="bookmark" data-toggle="modal" data-target="#construction">
+                        <a href="http://owncloud.goon.local/index.php/s/VSuNWQaEARsy069" rel="bookmark"
+                            data-toggle="modal" data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2"> Geocommunal</h1>
+                                <h1 class="bottom-left p-2"> Geocommunal</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2"> Geocommunal</h1>
+                                <h1 class="bottom-left p-2"> Geocommunal</h1>
                                 <?php } ?>
-                             </div>
+                            </div>
                         </a>
-                </div>
+                    </div>
                 </div>
             </div>
         </div>
