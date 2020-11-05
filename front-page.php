@@ -25,8 +25,7 @@
         //  include des services gratuits 
         include "free-services.php";
         ?>
-        
+
         <?php
 
-       // get_footer();
-
+       get_footer();
