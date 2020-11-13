@@ -11,41 +11,41 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://garoua.goon.cm/education/?lang=en" rel="bookmark">
-                                <div class="p-2 bg-white style-div-md-4">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
-                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
-                                    <?php } ?>
+                        <a href="education/?lang=en" rel="bookmark">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
+                                <?php } ?>
 
-                                </div>
-                            </a>
-                            <?php } else { ?>
-                                <a href="http://garoua.goon.cm/education" rel="bookmark">
-                                <div class="p-2 bg-white style-div-md-4">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
-                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
-                                    <?php } ?>
+                            </div>
+                        </a>
+                        <?php } else { ?>
+                        <a href="education" rel="bookmark">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2">EDUCATION</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2">ÉDUCATION</h1>
+                                <?php } ?>
 
-                                </div>
-                            </a>
+                            </div>
+                        </a>
                         <?php } ?>
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://garoua.goon.cm:2020/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.local:2020/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/jj.png' ?>" alt="">
 
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">I LEARN, I GROW</h1>
+                                <h1 class="bottom-left p-2 mt-2">I LEARN, I GROW</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">J'apprends J'avance</h1>
+                                <h1 class="bottom-left p-2 mt-2">J'apprends J'avance</h1>
                                 <?php } ?>
 
                             </div>
@@ -54,28 +54,28 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://garoua.goon.cm/news/?lang=en" rel="bookmark">
-                                <div class="p-2 bg-white style-div-md-4">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
-                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">LOCAL NEWS</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">LES NOUVELLES LOCALES</h1>
-                                    <?php } ?>
+                        <a href="news/?lang=en" rel="bookmark">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2">LOCAL NEWS</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2">LES NOUVELLES LOCALES</h1>
+                                <?php } ?>
 
-                                </div>
-                            </a>
+                            </div>
+                        </a>
                         <?php } else { ?>
-                            <a href="http://garoua.goon.cm/news" rel="bookmark">
-                                <div class="p-2 bg-white style-div-md-4">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
-                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">LOCAL NEWS</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">LES NOUVELLES LOCALES</h1>
-                                    <?php } ?>
-                                </div>
-                            </a>
+                        <a href="news" rel="bookmark">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2">LOCAL NEWS</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2">LES NOUVELLES LOCALES</h1>
+                                <?php } ?>
+                            </div>
+                        </a>
                         <?php } ?>
                     </div>
 
@@ -98,9 +98,9 @@
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">MARKET</h1>
+                                <h1 class="bottom-left p-2 mt-2">MARKET</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
+                                <h1 class="bottom-left p-2 mt-2">LE MARCHÉ</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -112,9 +112,9 @@
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITIES OF TELECENTER</h1>
+                                <h1 class="bottom-left p-2 mt-2"> ACTIVITIES OF TELECENTER</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> ACTIVITÉS DU TÉlÉCENTRE</h1>
+                                <h1 class="bottom-left p-2 mt-2"> ACTIVITÉS DU TÉlÉCENTRE</h1>
                                 <?php } ?>
                             </div>
                         </a>
@@ -138,41 +138,42 @@
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <!-- http://telecentrecameroon.ovh/espacecitoyen/mayo-oulo -->
                         <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                            <a href="http://garoua.goon.cm/espacecitoyen/mayo-oulo/" rel="bookmark" target="_blank">
-                                <div class="p-2 bg-white style-div-md-4">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
-                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
-                                    <?php } ?>
+                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/" rel="bookmark" target="_blank">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                <?php } ?>
 
-                                </div>
-                            </a>
+                            </div>
+                        </a>
                         <?php } else { ?>
-                            <a href="http://garoua.goon.cm/espacecitoyen/mayo-oulo/" rel="bookmark" target="_blank">
-                                <div class="p-2 bg-white style-div-md-4">
-                                    <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
-                                    <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                        <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
-                                    <?php } else { ?>
-                                        <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
-                                    <?php } ?>
-                                </div>
-                            </a>
+                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/" rel="bookmark" target="_blank">
+                            <div class="p-2 bg-white style-div-md-4">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2">Citizen's space</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
+                                <?php } ?>
+                            </div>
+                        </a>
                         <?php } ?>
                     </div>
 
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://garoua1.geocameroun.cm/#/" rel="bookmark" data-toggle="modal" data-target="#construction">
+                        <a href="http://ngong.geosm.org/" rel="bookmark" data-toggle="modal"
+                            data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
+                                <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
+                                <h1 class="bottom-left p-2 mt-2">Geocommunal </h1>
                                 <?php } ?>
 
                             </div>
@@ -180,13 +181,14 @@
                     </div>
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://owncloud.goon.cm" rel="bookmark" data-toggle="modal" data-target="#construction">
+                        <a href="http://owncloud.goon.cm" rel="bookmark" data-toggle="modal"
+                            data-target="#construction">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
+                                <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
                                 <?php } else { ?>
-                                    <h1 class="bottom-left p-2 mt-2"> DIVERTISEMENTS</h1>
+                                <h1 class="bottom-left p-2 mt-2"> DIVERTISEMENTS</h1>
                                 <?php } ?>
 
                             </div>
