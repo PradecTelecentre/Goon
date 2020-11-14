@@ -1469,3 +1469,8 @@ img{
     text-transform: capitalize;
     font-family: 'Colaborate' !important;
 }
+
+
+.site{
+    margin-top:-50px;
+}
