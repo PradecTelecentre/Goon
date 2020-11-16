@@ -166,8 +166,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://ngong.geosm.org/" rel="bookmark" data-toggle="modal"
-                            data-target="#construction">
+                        <a href="http://ngong.geosm.org/" rel="bookmark">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
