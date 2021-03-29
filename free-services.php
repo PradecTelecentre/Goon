@@ -23,7 +23,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.local/education/" rel="bookmark">
+                        <a href="http://www.goon.local/education-3/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/educations.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
@@ -66,7 +66,7 @@
                             </div>
                         </a>
                         <?php } else { ?>
-                        <a href="http://www.goon.local/nouvelles-locales-et-evenements" rel="bookmark">
+                        <a href="http://www.goon.local/nouvelles-locales-et-evenements/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
                                 <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
