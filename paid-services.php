@@ -33,7 +33,7 @@
                     </div>
                     <div class="free col">
                         <a href="http://espace.local.goon/index.php/login" target="_blank" rel="bookmark"
-                            style="background: #fff !important">
+                            target="_blank" style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/document.png' ?>" alt=""
                                     style="background: #fff !important">
@@ -57,7 +57,8 @@
                     </div>
                     <div class="free col">
                         <a href="http://espace.local.goon/index.php/apps/files/?dir=/&fileid=3" rel="bookmark"
-                            style="background: #fff !important" data-toggle="modal" data-target="#construction">
+                            target="_blank" style="background: #fff !important" data-toggle="modal"
+                            data-target="#construction">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apps.png' ?>" alt=""
                                     style="background: #fff !important">
