@@ -24,7 +24,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://espace.bibemi.goon/index.php/login" target="_blank" rel="bookmark"
+                        <a href="http://espace.goon.local/index.php/login" target="_blank" rel="bookmark"
                             style="background: #fff !important">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace.png' ?>" alt=""
