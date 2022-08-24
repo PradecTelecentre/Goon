@@ -129,10 +129,10 @@ function telecenter_scripts() {
 
 
 	wp_enqueue_script('telecenter-tether', get_template_directory_uri(). '/src/js/tether.js', array(), '', true);
-	wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', false);
-	wp_register_script('popper', get_template_directory_uri() . '/dist/js/popper.min.js', array('jquery'), '', false);
+	wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', true);
+	wp_register_script('popper', get_template_directory_uri() . '/dist/js/popper.min.js', array('jquery'), '', true);
 	wp_enqueue_script('popper');
-	wp_enqueue_script('telecenter-bootstrapp', get_template_directory_uri(). '/dist/js/bootstrap.min.js', array('jquery'), '', false);
+	wp_enqueue_script('telecenter-bootstrapp', get_template_directory_uri(). '/dist/js/bootstrap.min.js', array('jquery'), '', true);
 
 
 	// wp_enqueue_script( 'telecenter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -226,11 +226,11 @@ function pagination_nav() {
     global $wp_query;
 
     if ( $wp_query->max_num_pages > 1 ) { ?>
-        <nav class="pagination" role="navigation">
-            <div class="nav-previous"><?php next_posts_link( '&larr; Autres informations' ); ?></div>
-            <div class="nav-next"><?php previous_posts_link( 'Autres informations &rarr;' ); ?></div>
-        </nav>
-    <?php }
+<nav class="pagination" role="navigation">
+    <div class="nav-previous"><?php next_posts_link( '&larr; Autres informations' ); ?></div>
+    <div class="nav-next"><?php previous_posts_link( 'Autres informations &rarr;' ); ?></div>
+</nav>
+<?php }
 }
 
 function wpbeginner_numeric_posts_nav() {
@@ -316,17 +316,17 @@ function theme_wp_footer() {
 
     ?>
 
-    <script>
-			jQuery(document).ready(function($) {
-					var delay = 100;
-					setTimeout(function() {
-						$('.elementor-tab-title').removeClass('elementor-active');
-						$('.elementor-tab-content').css('display', 'none');
-					}, delay);
-			});
-    </script>
+<script>
+jQuery(document).ready(function($) {
+    var delay = 100;
+    setTimeout(function() {
+        $('.elementor-tab-title').removeClass('elementor-active');
+        $('.elementor-tab-content').css('display', 'none');
+    }, delay);
+});
+</script>
 
-    <?php
+<?php
 
 }
 
