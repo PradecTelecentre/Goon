@@ -116,11 +116,11 @@ add_action( 'after_setup_theme', 'telecenter_content_width', 0 );
 function telecenter_scripts() {
 
 
-	wp_enqueue_style('telecenter-bs-css', get_template_directory_uri().  '/dist/css/bootstrap.css');
+	wp_enqueue_style('telecenter-bs-css', get_template_directory_uri().  '/dist/css/bootstrap.min.css');
 
-	// wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon.css');
+	
 	wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon-01.css',NULL, microtime());
-	//wp_enqueue_style('telecenter-header-css', get_template_directory_uri() .  '/dist/css/header-01.css');
+	
 
 	wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/fonts/font-awesome/css/fontawesome.min.css');
 
@@ -129,7 +129,7 @@ function telecenter_scripts() {
 
 
 	wp_enqueue_script('telecenter-tether', get_template_directory_uri(). '/src/js/tether.js', array(), '', true);
-	wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', true);
+	//wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', true);
 	wp_register_script('popper', get_template_directory_uri() . '/dist/js/popper.min.js', array('jquery'), '', true);
 	wp_enqueue_script('popper');
 	wp_enqueue_script('telecenter-bootstrapp', get_template_directory_uri(). '/dist/js/bootstrap.min.js', array('jquery'), '', true);
@@ -137,9 +137,9 @@ function telecenter_scripts() {
 
 	// wp_enqueue_script( 'telecenter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'telecenter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'telecenter-skip-link-focus-fix', get_template_directory_uri() . 'src/js/skip-link-focus-fix.js', array(), '20151215', true );
 
-	wp_enqueue_script('popper', '/src/js/popper.min.js', false, '', true);
+	//wp_enqueue_script('popper', '/src/js/popper.min.js', false, '', true);
 
 
 
