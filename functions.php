@@ -137,7 +137,7 @@ function telecenter_scripts() {
 
 	// wp_enqueue_script( 'telecenter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'telecenter-skip-link-focus-fix', get_template_directory_uri() . 'src/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'telecenter-skip-link-focus-fix', get_template_directory_uri() . '/src/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	//wp_enqueue_script('popper', '/src/js/popper.min.js', false, '', true);
 
