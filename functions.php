@@ -116,18 +116,18 @@ add_action( 'after_setup_theme', 'telecenter_content_width', 0 );
 function telecenter_scripts() {
 
 
+	
+	
 	wp_enqueue_style('telecenter-bs-css', get_template_directory_uri().  '/dist/css/bootstrap.min.css');
-
+	
+	
+	
+	
+	// wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/dist/fonts/font-awesome/css/fontawesome.min.css');
 	
 	wp_enqueue_style('telecenter-goon-css', get_template_directory_uri() .  '/dist/css/goon-01.css',NULL, microtime());
 	
-
-	wp_enqueue_style('telecenter-fontawesome', get_template_directory_uri(). '/fonts/font-awesome/css/fontawesome.min.css');
-
 	wp_enqueue_style( 'telecenter-style', get_stylesheet_uri() );
-
-
-
 	wp_enqueue_script('telecenter-tether', get_template_directory_uri(). '/src/js/tether.js', array(), '', true);
 	//wp_enqueue_script('telecenter-jquery', get_template_directory_uri(). '/dist/js/jquery.min.js', array('jquery'), '', true);
 	wp_register_script('popper', get_template_directory_uri() . '/dist/js/popper.min.js', array('jquery'), '', true);
