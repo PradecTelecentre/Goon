@@ -37,7 +37,7 @@
 
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://goon.local:8000/wikipedia_fr_all_2017-05/A/Utilisateur:Popo_le_Chien_Kiwix.html" rel="bookmark" data-toggle="modal" data-target="#construction">
+                        <a href="http://goon.local:8000/wikipedia_fr_all_2017-05/A/Utilisateur:Popo_le_Chien_Kiwix.html" rel="bookmark"  target="_blank">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
