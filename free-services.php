@@ -24,7 +24,6 @@
                         <a href="http://www.goon.local:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apprend.png' ?>" alt="">
-
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                 <h1 class="bottom-left p-2 mt-2">I LEARN I GROW</h1>
                                 <?php } else { ?>
@@ -37,7 +36,6 @@
                         <a href="nouvelle-locales/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
-
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                 <h1 class="bottom-left p-2 mt-2">THE NEWS</h1>
                                 <?php } else { ?>
@@ -50,7 +48,6 @@
                         <a href="#" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/message.png' ?>" alt="">
-
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
                                 <h1 class="bottom-left p-2 mt-2">LET'S TALK</h1>
                                 <?php } else { ?>
@@ -79,43 +76,6 @@
                                 <h1 class="bottom-left p-2 mt-2"> ACTIVITIE OF TELECENTER</h1>
                                 <?php } else { ?>
                                 <h1 class="bottom-left p-2 mt-2"> ACTIVITÉ DU TÉlÉCENTRE</h1>
-                                <?php } ?>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
-                            <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                <h1 class="bottom-left p-2 mt-2">Citizen areas</h1>
-                                <?php } else { ?>
-                                <h1 class="bottom-left p-2 mt-2">Espace citoyen</h1>
-                                <?php } ?>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.cm/divertissement/" rel="bookmark" target="_blank" target="_blank">
-                            <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
-                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
-                                <?php } else { ?>
-                                <h1 class="bottom-left p-2 mt-2"> DIVERTISEMENTS</h1>
-                                <?php } ?>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo" rel="bookmark" data-toggle="modal"
-                            data-target="#construction" target="_blank">
-                            <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
-                                <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
-                                <h1 class="bottom-left p-2"> Geocommunal</h1>
-                                <?php } else { ?>
-                                <h1 class="bottom-left p-2"> Geocommunal</h1>
                                 <?php } ?>
                             </div>
                         </a>
