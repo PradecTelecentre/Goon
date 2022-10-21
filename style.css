@@ -1146,3 +1146,7 @@ object {
 .gallery-caption {
     display: block;
 }
+
+.tutor-pagination-wrapper-replaceable {
+    margin-top: 150px;
+}
