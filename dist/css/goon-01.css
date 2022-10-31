@@ -916,3 +916,7 @@ nav.pagination {
 .search__part > form > input[type=submit]{
     flex-grow: 1;
 }
+
+.tutor-pagination-wrapper-replaceable {
+    margin-top: 150px;
+}
