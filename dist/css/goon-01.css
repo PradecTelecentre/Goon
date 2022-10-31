@@ -917,10 +917,7 @@ nav.pagination {
     flex-grow: 1;
 }
 
-.tutor-pagination-wrapper-replaceable {
-    margin-top: 150px;
+.tutor-wrap {
+    margin-top: 170px !important;
 }
 
-.tutor-course-single-content-wrapper {
-    margin-top: 200px;
-}
