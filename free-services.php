@@ -9,7 +9,7 @@
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="cours/" rel="bookmark">
+                        <a href="courses/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/education.png' ?>" alt="">
                                 <!-- <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
