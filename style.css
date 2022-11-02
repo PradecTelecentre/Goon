@@ -1147,20 +1147,18 @@ object {
     display: block;
 }
 
-
 .tutor-wrap {
     margin-top: 175px!important;
 } 
-/* .tutor-wrap-parent {
 
-} 
-.tutor-courses-wrap {
+.tutor-lesson-sidebar {
+    margin-top: 200px!important;
+}
 
-} 
-.tutor-container {
-
-} 
+.tutor-quiz-single-entry-wrap{
+    margin-top: 80px!important;
+}
 
 .course-archive-page {
-
-} */
+ margin-top: 80px!important;
+} 
