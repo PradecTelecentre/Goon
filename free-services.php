@@ -9,7 +9,7 @@
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="education/" rel="bookmark">
+                        <a href="courses/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/education.png' ?>" alt="">
                                 <!-- <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -21,7 +21,19 @@
                         </a>
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local:8080/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.cm/divertissement/" rel="bookmark" target="_blank" target="_blank">
+                            <div class="style-div-md-4 p-2 bg-white">
+                                <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
+                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
+                                <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
+                                <?php } else { ?>
+                                <h1 class="bottom-left p-2 mt-2"> DIVERTISEMENTS</h1>
+                                <?php } ?>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
+                        <a href="http://www.goon.tcp:9090/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apprend.png' ?>" alt="">
 
@@ -46,6 +58,7 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="#" rel="bookmark" data-toggle="modal" data-target="#construction">
                             <div class="p-2 bg-white style-div-md-4">
@@ -59,8 +72,9 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local/marches" rel="bookmark">
+                        <a href="http://www.goon.tcp/marches" data-toggle="modal" data-target="#construction">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/marche.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -71,8 +85,10 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="/events" rel="bookmark">
+                        <a href="/events" rel="bookmark" data-toggle="modal" data-target="#construction">
+                            <div class="p-2 bg-white style-div-md-4">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -83,8 +99,10 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo/home" rel="bookmark" target="_blank">
+                        <a href="http://www.goon.tcp/espacecitoyen/mayo-oulo/home" rel="bookmark" data-toggle="modal" data-target="#construction">
+                            <div class="p-2 bg-white style-div-md-4">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -95,20 +113,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.cm/divertissement/" rel="bookmark" target="_blank" target="_blank">
-                            <div class="style-div-md-4 p-2 bg-white">
-                                <img src="<?= get_template_directory_uri() . '/src/img/v2/games.png' ?>" alt="">
-                                <?php if (strpos(get_page_link(), 'lang=en') !== false) { ?>
-                                <h1 class="bottom-left p-2 mt-2"> GAMES</h1>
-                                <?php } else { ?>
-                                <h1 class="bottom-left p-2 mt-2"> DIVERTISEMENTS</h1>
-                                <?php } ?>
-                            </div>
-                        </a>
-                    </div>
+                    
                     <div class="col-md-3 mb-4 col-sm-2 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.local/espacecitoyen/mayo-oulo" rel="bookmark" data-toggle="modal"
+                        <a href="http://www.goon.tcp/espacecitoyen/mayo-oulo" rel="bookmark" data-toggle="modal"
                             data-target="#construction" target="_blank">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/icon.png' ?>" alt="">
