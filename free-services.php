@@ -33,7 +33,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="http://www.goon.tcp:9090/fr-fr/learn/#/topics" rel="bookmark" target="_blank">
+                        <a href="http://goon.tcp:9090/fr-fr/learn/#/library" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/apprend.png' ?>" alt="">
 
