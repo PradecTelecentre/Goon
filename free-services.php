@@ -46,7 +46,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
-                        <a href="nouvelle-locales/" rel="bookmark">
+                        <a href="nouvelles-locales/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/new.png' ?>" alt="">
 
