@@ -6,8 +6,10 @@
     <div class="row">
         <div class="col-md-12 col-lg-12  content-area">
             <div class="container-fluid">
+                
                 <div class="row free-list" style="background-color:#f5f5f5">
                     <div class="col-12 mobile-cover search__part"> <?php get_search_form(); ?> </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="courses/" rel="bookmark">
                             <div class="p-2 bg-white style-div-md-4">
@@ -20,6 +22,7 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://www.goon.cm/divertissement/" rel="bookmark" target="_blank" target="_blank">
                             <div class="style-div-md-4 p-2 bg-white">
@@ -32,6 +35,7 @@
                             </div>
                         </a>
                     </div>
+                    
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://goon.tcp:9090/fr-fr/learn/#/library" rel="bookmark" target="_blank">
                             <div class="bg-white p-2 style-div-md-4">
@@ -88,7 +92,6 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="/events" rel="bookmark" data-toggle="modal" data-target="#construction">
-                            <div class="p-2 bg-white style-div-md-4">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/activite.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -102,7 +105,6 @@
 
                     <div class="col-md-3 mb-4 col-sm-6 col-lg-3 mobile-cover">
                         <a href="http://www.goon.tcp/espacecitoyen/mayo-oulo/home" rel="bookmark" data-toggle="modal" data-target="#construction">
-                            <div class="p-2 bg-white style-div-md-4">
                             <div class="style-div-md-4 p-2 bg-white">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/espace-ci.png' ?>" alt="">
                                 <?php if (strpos(home_url('/'), 'lang=en') !== false) { ?>
@@ -127,6 +129,7 @@
                             </div>
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>
