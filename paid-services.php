@@ -32,8 +32,9 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://espace.goon.local/index.php/login" target="_blank" rel="bookmark"
-                            target="_blank" style="background: #fff !important">
+                        <a href="http://espace.goon.tcp/index.php/login" rel="bookmark"
+                            target="_blank" style="background: #fff !important" data-toggle="modal"
+                            data-target="#construction">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">
                                 <img src="<?= get_template_directory_uri() . '/src/img/v2/document.png' ?>" alt=""
                                     style="background: #fff !important">
@@ -56,7 +57,7 @@
                         </a>
                     </div>
                     <div class="free col">
-                        <a href="http://espace.goon.local/index.php/apps/files/?dir=/&fileid=3" rel="bookmark"
+                        <a href="http://espace.goon.tcp/index.php/apps/files/?dir=/&fileid=3" rel="bookmark"
                             target="_blank" style="background: #fff !important" data-toggle="modal"
                             data-target="#construction">
                             <div class="p-2 style-div-md-4 bg-white" style="background: #fff !important">

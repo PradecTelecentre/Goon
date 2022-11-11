@@ -1146,3 +1146,19 @@ object {
 .gallery-caption {
     display: block;
 }
+
+.tutor-wrap {
+    margin-top: 230px!important;
+} 
+
+.tutor-lesson-sidebar {
+    margin-top: 210px!important;
+}
+
+.tutor-quiz-single-entry-wrap{
+    margin-top: 90px!important;
+}
+
+/* .course-archive-page {
+ margin-top: 90px!important;
+}  */
